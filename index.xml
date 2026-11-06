@@ -84,7 +84,7 @@
   <view id="mod_uk_video_slideshow" name="JP Video Slideshow" type="module" version="2.5" file="UIKit Module/mod_uk_video_slideshow.xml">
     <product id="mod_uk_video_slideshow"/>
   </view>
-  <view id="templates" name="All templates" type="template" version="2.8" file="Templates/tp_adventure.xml">
+  <view id="templates" name="Templates" type="template" version="2.8" file="Templates/tp_adventure.xml">
     <product id="tp_adventure"/>
     <product id="tp_advocat"/>
     <product id="tp_artist"/>
@@ -151,10 +151,10 @@
     <product id="tp_wedding"/>
     <product id="tp_work"/>
   </view>
-  <view id="templates_tp_barrierefrei" name="Templates — Barrierefrei exception" type="template" version="2.8" file="Templates/tp_barrierefrei.xml">
+  <view id="templates_tp_barrierefrei" name="Barrierefrei" type="template" version="2.8" file="Templates/tp_barrierefrei.xml">
     <product id="tp_barrierefrei"/>
   </view>
-  <view id="templates_tp_top" name="Templates — Top exception" type="template" version="2.8" file="Templates/tp_top.xml">
+  <view id="templates_tp_top" name="Top" type="template" version="2.8" file="Templates/tp_top.xml">
     <product id="tp_top"/>
   </view>
   <view id="plg_system_uikit4" name="UIkit Framework Plugin" type="plugin" version="4.0.17" file="UIKit Plugin/plg_system_uikit4.xml">

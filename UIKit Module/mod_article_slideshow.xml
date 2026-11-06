@@ -121,7 +121,8 @@
     <type>module</type>
     <version>1.2.0</version>
     <addition>
-      <item><![CDATA[Erste Veröffentlichung<br />	Legende:]]></item>
+      <item><![CDATA[Erste Veröffentlichung<br />
+Legende:]]></item>
       <item><![CDATA[= Neue Funktion / Ergänzung]]></item>
     </addition>
     <change>

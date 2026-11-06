@@ -166,7 +166,8 @@
     <type>module</type>
     <version>1.2.0</version>
     <addition>
-      <item><![CDATA[Initial Release<br />Legend:]]></item>
+      <item><![CDATA[Initial Release<br />
+Legend:]]></item>
     </addition>
   </changelog>
 </changelogs>

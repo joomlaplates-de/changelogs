@@ -5,7 +5,8 @@
     <type>module</type>
     <version>2.5</version>
     <fix>
-      <item><![CDATA[Joomla 5 &amp; 6 Compatibility Analysis – mod_shape_divider<br />This document summarizes the compatibility and modernization of **mod_shape_divider** (JP Shape Divider) with **Joomla 5** and **Joomla 6**.]]></item>
+      <item><![CDATA[Joomla 5 &amp; 6 Compatibility Analysis – mod_shape_divider<br />
+This document summarizes the compatibility and modernization of **mod_shape_divider** (JP Shape Divider) with **Joomla 5** and **Joomla 6**.]]></item>
     </fix>
     <remove>
       <item><![CDATA[❌ `JModuleHelper` is a **legacy J3 class**]]></item>
@@ -42,7 +43,8 @@
       <item><![CDATA[`mod_shape_divider.ini` - 9 strings]]></item>
       <item><![CDATA[`mod_shape_divider.sys.ini` - 2 strings]]></item>
       <item><![CDATA[`mod_shape_divider.ini` - 9 strings]]></item>
-      <item><![CDATA[`mod_shape_divider.sys.ini` - 2 strings<br />All hardcoded strings replaced with language keys.]]></item>
+      <item><![CDATA[`mod_shape_divider.sys.ini` - 2 strings<br />
+All hardcoded strings replaced with language keys.]]></item>
       <item><![CDATA[✅ Version bumped: 2.0 → 2.5]]></item>
       <item><![CDATA[✅ Namespace added: `&lt;namespace path=&quot;src&quot;&gt;Joomlaplates\Module\ShapeDivider&lt;/namespace&gt;`]]></item>
       <item><![CDATA[✅ Name uses language key: `MOD_SHAPE_DIVIDER_NAME`]]></item>
@@ -61,10 +63,12 @@
       <item><![CDATA[Test with compatibility plugin enabled and disabled]]></item>
       <item><![CDATA[Verify shape divider displays correctly]]></item>
       <item><![CDATA[Test color picker]]></item>
-      <item><![CDATA[Test angle and position options<br />2. **Joomla 6**]]></item>
+      <item><![CDATA[Test angle and position options<br />
+2. **Joomla 6**]]></item>
       <item><![CDATA[Same tests as Joomla 5]]></item>
       <item><![CDATA[Verify no deprecated warnings]]></item>
-      <item><![CDATA[Test German and English language files<br />3. **Module Settings**]]></item>
+      <item><![CDATA[Test German and English language files<br />
+3. **Module Settings**]]></item>
       <item><![CDATA[Test all angle degrees (1-7)]]></item>
       <item><![CDATA[Test both positions (left/right)]]></item>
       <item><![CDATA[Test color picker with different colors]]></item>
@@ -87,47 +91,155 @@
       <item><![CDATA[✅ **Security improved** (proper output escaping)]]></item>
       <item><![CDATA[✅ **Fully translatable** (EN + DE)]]></item>
       <item><![CDATA[✅ **Best practice** implementation]]></item>
-      <item><![CDATA[✅ **Production-ready** with version 2.5<br />The module was previously **broken on J6 without compatibility plugin** due to `JModuleHelper` usage. This critical issue is now resolved.<br />*Migration completed: February 2026*<br />*Compatible with: Joomla 4.x, 5.x, 6.x+*<br />*Version upgraded: 2.0 → 2.5*]]></item>
+      <item><![CDATA[✅ **Production-ready** with version 2.5<br />
+The module was previously **broken on J6 without compatibility plugin** due to `JModuleHelper` usage. This critical issue is now resolved.<br />
+*Migration completed: February 2026*<br />
+*Compatible with: Joomla 4.x, 5.x, 6.x+*<br />
+*Version upgraded: 2.0 → 2.5*]]></item>
     </remove>
     <note>
-      <item><![CDATA[## Executive Summary<br />The module has been **fully modernized** from legacy architecture to **Joomla 4/5/6 architecture** with namespaces, service providers, and custom dispatcher pattern. Critical compatibility issues have been fixed. It is now **fully compatible** with Joomla 5 and 6, with and without backward compatibility plugins.]]></item>
+      <item><![CDATA[## Executive Summary<br />
+The module has been **fully modernized** from legacy architecture to **Joomla 4/5/6 architecture** with namespaces, service providers, and custom dispatcher pattern. Critical compatibility issues have been fixed. It is now **fully compatible** with Joomla 5 and 6, with and without backward compatibility plugins.]]></item>
       <item><![CDATA[## Critical Issues Fixed]]></item>
       <item><![CDATA[### 1. **Legacy JModuleHelper (CRITICAL)**]]></item>
-      <item><![CDATA[**Before (INCOMPATIBLE):**<br />```php<br />// mod_shape_divider.php - Line 11<br />require JModuleHelper::getLayoutPath(&apos;mod_shape_divider&apos;, $params-&gt;get(&apos;layout&apos;, &apos;default&apos;));<br />```]]></item>
+      <item><![CDATA[**Before (INCOMPATIBLE):**<br />
+```php<br />
+// mod_shape_divider.php - Line 11<br />
+require JModuleHelper::getLayoutPath(&apos;mod_shape_divider&apos;, $params-&gt;get(&apos;layout&apos;, &apos;default&apos;));<br />
+```]]></item>
       <item><![CDATA[**Problem:**]]></item>
       <item><![CDATA[**After (FIXED):**]]></item>
       <item><![CDATA[### 2. **Security: No Output Escaping**]]></item>
-      <item><![CDATA[**Before (VULNERABLE):**<br />```php<br />background: &lt;?php echo $shape_bg; ?&gt;;<br />transform: skewY(...&lt;?php echo $shape_angle; ?&gt;);<br />```]]></item>
+      <item><![CDATA[**Before (VULNERABLE):**<br />
+```php<br />
+background: &lt;?php echo $shape_bg; ?&gt;;<br />
+transform: skewY(...&lt;?php echo $shape_angle; ?&gt;);<br />
+```]]></item>
       <item><![CDATA[**Problem:**]]></item>
-      <item><![CDATA[**After (FIXED):**<br />```php<br />background: &lt;?php echo htmlspecialchars($shape_bg, ENT_QUOTES, &apos;UTF-8&apos;); ?&gt;;<br />transform: skewY(...&lt;?php echo htmlspecialchars($shape_angle, ENT_QUOTES, &apos;UTF-8&apos;); ?&gt;);<br />```]]></item>
+      <item><![CDATA[**After (FIXED):**<br />
+```php<br />
+background: &lt;?php echo htmlspecialchars($shape_bg, ENT_QUOTES, &apos;UTF-8&apos;); ?&gt;;<br />
+transform: skewY(...&lt;?php echo htmlspecialchars($shape_angle, ENT_QUOTES, &apos;UTF-8&apos;); ?&gt;);<br />
+```]]></item>
       <item><![CDATA[### 3. **No Language Files**]]></item>
       <item><![CDATA[**Before:**]]></item>
       <item><![CDATA[**After (FIXED):**]]></item>
       <item><![CDATA[### 4. **HTML Error in Manifest**]]></item>
-      <item><![CDATA[**Before:**<br />```xml<br />&lt;p class=&quot;btn btn-sm btn-info&quot; p&gt;Version 2.0&lt;/p&gt;<br />```<br />⚠️ Invalid HTML: `&quot; p&gt;` instead of `&quot;&gt;`]]></item>
-      <item><![CDATA[**After (FIXED):**<br />```xml<br />MOD_SHAPE_DIVIDER_DESCRIPTION (in language file)<br />```<br />✅ Valid HTML, proper language string]]></item>
+      <item><![CDATA[**Before:**<br />
+```xml<br />
+&lt;p class=&quot;btn btn-sm btn-info&quot; p&gt;Version 2.0&lt;/p&gt;<br />
+```<br />
+⚠️ Invalid HTML: `&quot; p&gt;` instead of `&quot;&gt;`]]></item>
+      <item><![CDATA[**After (FIXED):**<br />
+```xml<br />
+MOD_SHAPE_DIVIDER_DESCRIPTION (in language file)<br />
+```<br />
+✅ Valid HTML, proper language string]]></item>
       <item><![CDATA[## Migration to Modern Architecture]]></item>
-      <item><![CDATA[### Before Migration (Legacy)<br />```<br />mod_shape_divider/<br />├── mod_shape_divider.php    ❌ Legacy entry file<br />├── tmpl/default.php         ⚠️ No escaping<br />└── mod_shape_divider.xml    ⚠️ Hardcoded strings<br />```]]></item>
+      <item><![CDATA[### Before Migration (Legacy)<br />
+```<br />
+mod_shape_divider/<br />
+├── mod_shape_divider.php    ❌ Legacy entry file<br />
+├── tmpl/default.php         ⚠️ No escaping<br />
+└── mod_shape_divider.xml    ⚠️ Hardcoded strings<br />
+```]]></item>
       <item><![CDATA[**Issues:**]]></item>
-      <item><![CDATA[### After Migration (Modern J4/5/6)<br />```<br />mod_shape_divider/<br />├── services/<br />│   └── provider.php          ✨ NEW: Service provider<br />├── src/<br />│   └── Dispatcher/<br />│       └── Dispatcher.php    ✨ NEW: Custom dispatcher<br />├── tmpl/<br />│   └── default.php           ✅ Simplified + secured<br />├── language/<br />│   ├── en-GB/               ✨ NEW: English<br />│   │   ├── mod_shape_divider.ini<br />│   │   └── mod_shape_divider.sys.ini<br />│   └── de-DE/               ✨ NEW: German<br />│       ├── mod_shape_divider.ini<br />│       └── mod_shape_divider.sys.ini<br />└── mod_shape_divider.xml     ✅ Modernized<br />```]]></item>
+      <item><![CDATA[### After Migration (Modern J4/5/6)<br />
+```<br />
+mod_shape_divider/<br />
+├── services/<br />
+│   └── provider.php          ✨ NEW: Service provider<br />
+├── src/<br />
+│   └── Dispatcher/<br />
+│       └── Dispatcher.php    ✨ NEW: Custom dispatcher<br />
+├── tmpl/<br />
+│   └── default.php           ✅ Simplified + secured<br />
+├── language/<br />
+│   ├── en-GB/               ✨ NEW: English<br />
+│   │   ├── mod_shape_divider.ini<br />
+│   │   └── mod_shape_divider.sys.ini<br />
+│   └── de-DE/               ✨ NEW: German<br />
+│       ├── mod_shape_divider.ini<br />
+│       └── mod_shape_divider.sys.ini<br />
+└── mod_shape_divider.xml     ✅ Modernized<br />
+```]]></item>
       <item><![CDATA[**Benefits:**]]></item>
       <item><![CDATA[## New Architecture Components]]></item>
-      <item><![CDATA[### 1. Service Provider (services/provider.php)<br />Implements modern Joomla 4/5/6 service provider pattern:<br />```php<br />return new class () implements ServiceProviderInterface {<br />    public function register(Container $container): void<br />    {<br />        $container-&gt;registerServiceProvider(<br />            new ModuleDispatcherFactoryServiceProvider(&apos;\\Joomlaplates\\Module\\ShapeDivider&apos;)<br />        );<br />        $container-&gt;registerServiceProvider(new ModuleServiceProvider());<br />    }<br />};<br />```]]></item>
-      <item><![CDATA[### 2. Custom Dispatcher (src/Dispatcher/Dispatcher.php)<br />| Feature | Implementation |<br />|---------|----------------|<br />| Namespace | `Joomlaplates\Module\ShapeDivider\Site\Dispatcher` |<br />| Base Class | `AbstractModuleDispatcher` |<br />| Method | `getLayoutData()` |<br />| Logic | Parameter retrieval with defaults |]]></item>
+      <item><![CDATA[### 1. Service Provider (services/provider.php)<br />
+Implements modern Joomla 4/5/6 service provider pattern:<br />
+```php<br />
+return new class () implements ServiceProviderInterface {<br />
+public function register(Container $container): void<br />
+{<br />
+$container-&gt;registerServiceProvider(<br />
+new ModuleDispatcherFactoryServiceProvider(&apos;\\Joomlaplates\\Module\\ShapeDivider&apos;)<br />
+);<br />
+$container-&gt;registerServiceProvider(new ModuleServiceProvider());<br />
+}<br />
+};<br />
+```]]></item>
+      <item><![CDATA[### 2. Custom Dispatcher (src/Dispatcher/Dispatcher.php)<br />
+| Feature | Implementation |<br />
+|---------|----------------|<br />
+| Namespace | `Joomlaplates\Module\ShapeDivider\Site\Dispatcher` |<br />
+| Base Class | `AbstractModuleDispatcher` |<br />
+| Method | `getLayoutData()` |<br />
+| Logic | Parameter retrieval with defaults |]]></item>
       <item><![CDATA[**Responsibilities:**]]></item>
       <item><![CDATA[### 3. Simplified Template (tmpl/default.php)]]></item>
-      <item><![CDATA[**Before:**<br />```php<br />$shape_height = $params-&gt;get(&apos;shape_height&apos;);<br />$shape_bg = $params-&gt;get(&apos;shape_bg&apos;);<br />$shape_angle = $params-&gt;get(&apos;shape_angle&apos;);<br />$shape_pos = $params-&gt;get(&apos;shape_pos&apos;);<br />// No escaping<br />echo $shape_bg;<br />```]]></item>
-      <item><![CDATA[**After:**<br />```php<br />// All variables prepared by Dispatcher<br />// With proper escaping:<br />echo htmlspecialchars($shape_bg, ENT_QUOTES, &apos;UTF-8&apos;);<br />echo htmlspecialchars($shape_angle, ENT_QUOTES, &apos;UTF-8&apos;);<br />echo htmlspecialchars($shape_pos, ENT_QUOTES, &apos;UTF-8&apos;);<br />```]]></item>
+      <item><![CDATA[**Before:**<br />
+```php<br />
+$shape_height = $params-&gt;get(&apos;shape_height&apos;);<br />
+$shape_bg = $params-&gt;get(&apos;shape_bg&apos;);<br />
+$shape_angle = $params-&gt;get(&apos;shape_angle&apos;);<br />
+$shape_pos = $params-&gt;get(&apos;shape_pos&apos;);<br />
+// No escaping<br />
+echo $shape_bg;<br />
+```]]></item>
+      <item><![CDATA[**After:**<br />
+```php<br />
+// All variables prepared by Dispatcher<br />
+// With proper escaping:<br />
+echo htmlspecialchars($shape_bg, ENT_QUOTES, &apos;UTF-8&apos;);<br />
+echo htmlspecialchars($shape_angle, ENT_QUOTES, &apos;UTF-8&apos;);<br />
+echo htmlspecialchars($shape_pos, ENT_QUOTES, &apos;UTF-8&apos;);<br />
+```]]></item>
       <item><![CDATA[### 4. Language Files (NEW)]]></item>
       <item><![CDATA[**English (en-GB):**]]></item>
       <item><![CDATA[**German (de-DE):**]]></item>
       <item><![CDATA[### 5. Updated Manifest (mod_shape_divider.xml)]]></item>
       <item><![CDATA[**Changes:**]]></item>
-      <item><![CDATA[## Compatibility Matrix<br />| Environment | Before | After | Status |<br />|-------------|--------|-------|--------|<br />| Joomla 5.x (no plugin) | ❌ Fails | ✅ Works | ✅ Fixed |<br />| Joomla 5.x (with plugin) | ⚠️ Works | ✅ Works | ✅ Improved |<br />| Joomla 6.x (no plugin) | ❌ Fails | ✅ Works | ✅ Fixed |<br />| Joomla 6.x (with plugin) | ⚠️ Works | ✅ Works | ✅ Improved |]]></item>
-      <item><![CDATA[## Security Improvements<br />| Issue | Before | After |<br />|-------|--------|-------|<br />| Color value escaping | ❌ None | ✅ htmlspecialchars() |<br />| Angle value escaping | ❌ None | ✅ htmlspecialchars() |<br />| Position value escaping | ❌ None | ✅ htmlspecialchars() |<br />| Module ID escaping | ❌ None | ✅ (int) cast |]]></item>
-      <item><![CDATA[## Code Quality Improvements<br />| Aspect | Before | After |<br />|--------|--------|-------|<br />| **Architecture** | ❌ Legacy J3 | ✅ Modern J4/5/6 |<br />| **APIs** | ❌ JModuleHelper | ✅ AbstractModuleDispatcher |<br />| **Namespaces** | ❌ No | ✅ Yes (PSR-4) |<br />| **Service Provider** | ❌ No | ✅ Yes |<br />| **Custom Dispatcher** | ❌ No | ✅ Yes |<br />| **Language Files** | ❌ No | ✅ Yes (EN + DE) |<br />| **Security** | ⚠️ Vulnerable | ✅ Secured |<br />| **Maintainability** | ⚠️ Low | ✅ High |<br />| **Testability** | ⚠️ Difficult | ✅ Easy |<br />| **Future-proof** | ❌ No | ✅ J7+ ready |]]></item>
-      <item><![CDATA[## Joomla 6 Specific Checks<br />The module does **not** use any APIs removed in Joomla 6:]]></item>
-      <item><![CDATA[## Testing Recommendations<br />1. **Joomla 5**]]></item>
+      <item><![CDATA[## Compatibility Matrix<br />
+| Environment | Before | After | Status |<br />
+|-------------|--------|-------|--------|<br />
+| Joomla 5.x (no plugin) | ❌ Fails | ✅ Works | ✅ Fixed |<br />
+| Joomla 5.x (with plugin) | ⚠️ Works | ✅ Works | ✅ Improved |<br />
+| Joomla 6.x (no plugin) | ❌ Fails | ✅ Works | ✅ Fixed |<br />
+| Joomla 6.x (with plugin) | ⚠️ Works | ✅ Works | ✅ Improved |]]></item>
+      <item><![CDATA[## Security Improvements<br />
+| Issue | Before | After |<br />
+|-------|--------|-------|<br />
+| Color value escaping | ❌ None | ✅ htmlspecialchars() |<br />
+| Angle value escaping | ❌ None | ✅ htmlspecialchars() |<br />
+| Position value escaping | ❌ None | ✅ htmlspecialchars() |<br />
+| Module ID escaping | ❌ None | ✅ (int) cast |]]></item>
+      <item><![CDATA[## Code Quality Improvements<br />
+| Aspect | Before | After |<br />
+|--------|--------|-------|<br />
+| **Architecture** | ❌ Legacy J3 | ✅ Modern J4/5/6 |<br />
+| **APIs** | ❌ JModuleHelper | ✅ AbstractModuleDispatcher |<br />
+| **Namespaces** | ❌ No | ✅ Yes (PSR-4) |<br />
+| **Service Provider** | ❌ No | ✅ Yes |<br />
+| **Custom Dispatcher** | ❌ No | ✅ Yes |<br />
+| **Language Files** | ❌ No | ✅ Yes (EN + DE) |<br />
+| **Security** | ⚠️ Vulnerable | ✅ Secured |<br />
+| **Maintainability** | ⚠️ Low | ✅ High |<br />
+| **Testability** | ⚠️ Difficult | ✅ Easy |<br />
+| **Future-proof** | ❌ No | ✅ J7+ ready |]]></item>
+      <item><![CDATA[## Joomla 6 Specific Checks<br />
+The module does **not** use any APIs removed in Joomla 6:]]></item>
+      <item><![CDATA[## Testing Recommendations<br />
+1. **Joomla 5**]]></item>
       <item><![CDATA[## Migration Benefits Summary]]></item>
       <item><![CDATA[### For Developers]]></item>
       <item><![CDATA[### For Users]]></item>

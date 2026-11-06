@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="tp_top" name="Top" currentVersion="2.8" viewId="templates_tp_top" viewName="Templates — Top exception">
+<changelogs id="tp_top" name="Top" currentVersion="2.8" viewId="templates_tp_top" viewName="Top">
   <changelog date="2026-11-03">
     <element>tp_top</element>
     <type>template</type>

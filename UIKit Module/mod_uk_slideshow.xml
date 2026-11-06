@@ -150,7 +150,8 @@
     <type>module</type>
     <version>1.2.0</version>
     <addition>
-      <item><![CDATA[Initial release<br />Legend: * Security | # Bug fix | $ Language | + Addition | ^ Change | - Removed | ! Note]]></item>
+      <item><![CDATA[Initial release<br />
+Legend: * Security | # Bug fix | $ Language | + Addition | ^ Change | - Removed | ! Note]]></item>
     </addition>
   </changelog>
 </changelogs>

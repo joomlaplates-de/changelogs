@@ -78,7 +78,8 @@
       <item><![CDATA[**Version:** 2.5]]></item>
       <item><![CDATA[**Date:** February 2025]]></item>
       <item><![CDATA[**Status:** ✅ Fully Compatible]]></item>
-      <item><![CDATA[## Summary<br />The module **mod_uk_skills** has been successfully modernized to **Joomla 4/5/6 architecture** with namespaces, service providers, and custom dispatcher pattern. It is now **fully compatible** with Joomla 5 and 6, with and without backward compatibility plugins.]]></item>
+      <item><![CDATA[## Summary<br />
+The module **mod_uk_skills** has been successfully modernized to **Joomla 4/5/6 architecture** with namespaces, service providers, and custom dispatcher pattern. It is now **fully compatible** with Joomla 5 and 6, with and without backward compatibility plugins.]]></item>
       <item><![CDATA[## Migration Details]]></item>
       <item><![CDATA[### Before (Version 2.0)]]></item>
       <item><![CDATA[### After (Version 2.5)]]></item>
@@ -92,21 +93,62 @@
       <item><![CDATA[### Step 4: Final Cleanup]]></item>
       <item><![CDATA[**Files:** `tmpl/default.php`, `mod_uk_skills.php` (deleted)]]></item>
       <item><![CDATA[## Architecture]]></item>
-      <item><![CDATA[### Service Provider<br />```<br />services/provider.php<br />```<br />Registers the module with Joomla&apos;s dependency injection container using the modern service provider pattern.]]></item>
-      <item><![CDATA[### Custom Dispatcher<br />```<br />src/Dispatcher/Dispatcher.php<br />Namespace: Joomlaplates\Module\UkSkills\Site\Dispatcher<br />```<br />Extends `AbstractModuleDispatcher` and prepares all data for the template in `getLayoutData()`:]]></item>
-      <item><![CDATA[### Template<br />```<br />tmpl/default.php<br />```<br />Receives prepared data from Dispatcher. All output is properly escaped.]]></item>
-      <item><![CDATA[### Custom JavaScript<br />```<br />js/mod_uk_skills.js<br />```<br />ToxProgress library for animated skill circles.]]></item>
-      <item><![CDATA[## Features<br />This module creates animated skill circles with:]]></item>
+      <item><![CDATA[### Service Provider<br />
+```<br />
+services/provider.php<br />
+```<br />
+Registers the module with Joomla&apos;s dependency injection container using the modern service provider pattern.]]></item>
+      <item><![CDATA[### Custom Dispatcher<br />
+```<br />
+src/Dispatcher/Dispatcher.php<br />
+Namespace: Joomlaplates\Module\UkSkills\Site\Dispatcher<br />
+```<br />
+Extends `AbstractModuleDispatcher` and prepares all data for the template in `getLayoutData()`:]]></item>
+      <item><![CDATA[### Template<br />
+```<br />
+tmpl/default.php<br />
+```<br />
+Receives prepared data from Dispatcher. All output is properly escaped.]]></item>
+      <item><![CDATA[### Custom JavaScript<br />
+```<br />
+js/mod_uk_skills.js<br />
+```<br />
+ToxProgress library for animated skill circles.]]></item>
+      <item><![CDATA[## Features<br />
+This module creates animated skill circles with:]]></item>
       <item><![CDATA[### Circle Parameters (per item):]]></item>
-      <item><![CDATA[## Compatibility Matrix<br />| Environment | Status | Notes |<br />|-------------|--------|-------|<br />| Joomla 4.x | ✅ Works | Modern architecture |<br />| Joomla 5.x (no plugin) | ✅ Works | Fully compatible |<br />| Joomla 5.x (with plugin) | ✅ Works | Plugin not needed |<br />| Joomla 6.x (no plugin) | ✅ Works | Fully compatible |<br />| Joomla 6.x (with plugin) | ✅ Works | Plugin not needed |]]></item>
-      <item><![CDATA[## Security Improvements<br />| Issue | Before | After |<br />|-------|--------|-------|<br />| Content class | ❌ No escaping | ✅ htmlspecialchars() |<br />| Item style | ❌ No escaping | ✅ htmlspecialchars() |<br />| Center class | ❌ No escaping | ✅ htmlspecialchars() |<br />| Circle parameters | ❌ No validation | ✅ (int) casting |<br />| Circle colors | ❌ No escaping | ✅ htmlspecialchars() |<br />| Title output | ❌ No escaping | ✅ htmlspecialchars() |<br />| Content output | ❌ No escaping | ✅ htmlspecialchars() |]]></item>
-      <item><![CDATA[## Testing Performed<br />Each step was tested individually:<br />1. ✅ **Step 1 (Escaping):** Module displayed correctly with security improvements<br />2. ✅ **Step 2 (Languages):** German/English translations working<br />3. ✅ **Step 3 (Architecture):** Modern dispatcher working properly, slider parameters correct<br />4. ✅ **Step 4 (Finalization):** Legacy entry file removed, module still works]]></item>
+      <item><![CDATA[## Compatibility Matrix<br />
+| Environment | Status | Notes |<br />
+|-------------|--------|-------|<br />
+| Joomla 4.x | ✅ Works | Modern architecture |<br />
+| Joomla 5.x (no plugin) | ✅ Works | Fully compatible |<br />
+| Joomla 5.x (with plugin) | ✅ Works | Plugin not needed |<br />
+| Joomla 6.x (no plugin) | ✅ Works | Fully compatible |<br />
+| Joomla 6.x (with plugin) | ✅ Works | Plugin not needed |]]></item>
+      <item><![CDATA[## Security Improvements<br />
+| Issue | Before | After |<br />
+|-------|--------|-------|<br />
+| Content class | ❌ No escaping | ✅ htmlspecialchars() |<br />
+| Item style | ❌ No escaping | ✅ htmlspecialchars() |<br />
+| Center class | ❌ No escaping | ✅ htmlspecialchars() |<br />
+| Circle parameters | ❌ No validation | ✅ (int) casting |<br />
+| Circle colors | ❌ No escaping | ✅ htmlspecialchars() |<br />
+| Title output | ❌ No escaping | ✅ htmlspecialchars() |<br />
+| Content output | ❌ No escaping | ✅ htmlspecialchars() |]]></item>
+      <item><![CDATA[## Testing Performed<br />
+Each step was tested individually:<br />
+1. ✅ **Step 1 (Escaping):** Module displayed correctly with security improvements<br />
+2. ✅ **Step 2 (Languages):** German/English translations working<br />
+3. ✅ **Step 3 (Architecture):** Modern dispatcher working properly, slider parameters correct<br />
+4. ✅ **Step 4 (Finalization):** Legacy entry file removed, module still works]]></item>
       <item><![CDATA[## Benefits]]></item>
       <item><![CDATA[### For Developers]]></item>
       <item><![CDATA[### For Users]]></item>
       <item><![CDATA[### For Site Operators]]></item>
-      <item><![CDATA[## UIkit 3 Integration<br />The module uses UIkit 3 components:]]></item>
-      <item><![CDATA[## Conclusion<br />The module is now **fully compatible** with Joomla 4, 5, and 6, follows best practices, and is ready for production use.]]></item>
+      <item><![CDATA[## UIkit 3 Integration<br />
+The module uses UIkit 3 components:]]></item>
+      <item><![CDATA[## Conclusion<br />
+The module is now **fully compatible** with Joomla 4, 5, and 6, follows best practices, and is ready for production use.]]></item>
       <item><![CDATA[**Migration completed successfully.**]]></item>
       <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
     </note>

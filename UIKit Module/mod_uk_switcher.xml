@@ -27,11 +27,27 @@
       <item><![CDATA[**Typ:** Yes/No Radio Button]]></item>
       <item><![CDATA[**Funktion:** Aktiviert die CSS-Klasse `uk-card-hover` auf dem Karten-DIV]]></item>
       <item><![CDATA[**Effekt:** Karte hebt sich beim Hover um 10px nach oben]]></item>
-      <item><![CDATA[**CSS:**<br />  ```css<br />  .uk-card-hover {<br />    transition: all 0.5s ease !important;<br />  }<br />  .uk-card-hover:hover {<br />    transform: translateY(-10px);<br />  }<br />  ```]]></item>
+      <item><![CDATA[**CSS:**<br />
+```css<br />
+.uk-card-hover {<br />
+transition: all 0.5s ease !important;<br />
+}<br />
+.uk-card-hover:hover {<br />
+transform: translateY(-10px);<br />
+}<br />
+```]]></item>
       <item><![CDATA[**Typ:** Yes/No Radio Button]]></item>
       <item><![CDATA[**Funktion:** Aktiviert die CSS-Klasse `img-hover` auf Bildern]]></item>
       <item><![CDATA[**Effekt:** Bild wird beim Hover dunkler (Brightness 0.5)]]></item>
-      <item><![CDATA[**CSS:**<br />  ```css<br />  .img-hover { <br />    transition: filter 0.5s <br />  }<br />  .img-hover:hover { <br />    filter: brightness(0.5); <br />  }<br />  ```]]></item>
+      <item><![CDATA[**CSS:**<br />
+```css<br />
+.img-hover { <br />
+transition: filter 0.5s <br />
+}<br />
+.img-hover:hover { <br />
+filter: brightness(0.5); <br />
+}<br />
+```]]></item>
       <item><![CDATA[**Typ:** Textfeld]]></item>
       <item><![CDATA[**Funktion:** Fügt beliebige CSS-Klassen als Suffix hinzu]]></item>
       <item><![CDATA[**Beispiel:** `my-custom-class another-class`]]></item>
@@ -120,7 +136,8 @@
     <type>module</type>
     <version>1.2.0</version>
     <addition>
-      <item><![CDATA[Initial release<br />Legend]]></item>
+      <item><![CDATA[Initial release<br />
+Legend]]></item>
       <item><![CDATA[Addition]]></item>
     </addition>
     <change>

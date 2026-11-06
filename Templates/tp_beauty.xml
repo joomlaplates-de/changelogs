@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="tp_beauty" name="Beauty" currentVersion="2.8" viewId="templates" viewName="All templates">
+<changelogs id="tp_beauty" name="Beauty" currentVersion="2.8" viewId="templates" viewName="Templates">
   <changelog date="2026-11-03">
     <element>tp_beauty</element>
     <type>template</type>

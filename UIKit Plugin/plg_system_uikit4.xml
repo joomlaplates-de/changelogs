@@ -8,7 +8,10 @@
     <note>
       <item><![CDATA[Detailed plugin-specific release notes for version 4.0.17 are not available in the supplied package.]]></item>
       <item><![CDATA[Bundled UIkit library: 3.25.26. The following notes describe the library release, not a separate plugin version.]]></item>
-      <item><![CDATA[Fixed<br />    Fix handling of canceled Pointer Events while dragging Sortable items<br />    Fixed<br />    Fix preventing Slider autoplay from starting its next transition before the prior one is painted]]></item>
+      <item><![CDATA[Fixed<br />
+Fix handling of canceled Pointer Events while dragging Sortable items<br />
+Fixed<br />
+Fix preventing Slider autoplay from starting its next transition before the prior one is painted]]></item>
       <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
     </note>
   </changelog>
@@ -54,7 +57,9 @@
       <item><![CDATA[Initial UIkit 4 integration for Joomla.]]></item>
       <item><![CDATA[System plugin loading UIkit CSS/JS via Web Asset Manager.]]></item>
       <item><![CDATA[Option to defer JavaScript.]]></item>
-      <item><![CDATA[UIkit Icons script loaded as dependency of main UIkit script.<br />[4.0.14]: https://github.com/joomlaplates/plg_system_uikit4/compare/4.0.13...4.0.14<br />[4.0.13]: https://github.com/joomlaplates/plg_system_uikit4/compare/4.0.12...4.0.13]]></item>
+      <item><![CDATA[UIkit Icons script loaded as dependency of main UIkit script.<br />
+[4.0.14]: https://github.com/joomlaplates/plg_system_uikit4/compare/4.0.13...4.0.14<br />
+[4.0.13]: https://github.com/joomlaplates/plg_system_uikit4/compare/4.0.12...4.0.13]]></item>
     </note>
   </changelog>
 </changelogs>
