@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_grid" name="JP Grid" currentVersion="2.5" viewId="mod_uk_grid" viewName="JP Grid">
+  <changelog date="2025-02-07">
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Full Joomla 5/6 Architecture Implementation]]></item>
+      <item><![CDATA[Modern Dispatcher Pattern for J5/6]]></item>
+      <item><![CDATA[Corrected Namespace: Joomla\Module\UkGrid → Joomlaplates\Module\UkGrid]]></item>
+      <item><![CDATA[Correct namespace path: &quot;.&quot; → &quot;src&quot;]]></item>
+      <item><![CDATA[Automatic detection: Works with AND without Compatibility Plugin]]></item>
+      <item><![CDATA[Dual-mode support: Legacy (old Site/ folder) and Modern (new src/ folder)]]></item>
+      <item><![CDATA[Joomla 6 API compatibility (Language classes)]]></item>
+      <item><![CDATA[Empty index.html in every folder]]></item>
+      <item><![CDATA[README.md added]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Updated ALL template files (default.php, overlay-dark.php, overlay-white.php)]]></item>
+      <item><![CDATA[Joomla 6 compatibility for all layouts (TextCompat alias)]]></item>
+      <item><![CDATA[Moved from Site/Helper/ to src/Helper/ (Site/ remains as fallback)]]></item>
+      <item><![CDATA[Improved code structure and maintainability]]></item>
+      <item><![CDATA[Joomla 5 and Joomla 6 compatibility]]></item>
+      <item><![CDATA[Namespace updates (Joomla\CMS, manifest namespace element)]]></item>
+      <item><![CDATA[Module class suffix applied in layouts; field type set to text]]></item>
+      <item><![CDATA[Subform formsource path relative (forms/form.xml)]]></item>
+      <item><![CDATA[Language file comment fixes; license URL to https]]></item>
+      <item><![CDATA[Bug fix: first_column_class appended to grid_params instead of overwriting variable]]></item>
+      <item><![CDATA[Template output: tag and moduleclass_sfx escaped for security]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed subform path: forms/form.xml → modules/mod_uk_grid/forms/form.xml]]></item>
+      <item><![CDATA[Fixed &quot;Undefined array key&quot; error in all templates]]></item>
+      <item><![CDATA[Fixed &quot;Undefined array key&quot; error with subform items]]></item>
+      <item><![CDATA[Improved tags handling - ensures all item keys exist in tagsList]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed version badge from admin description (cleaner title)]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Form loading error resolved]]></item>
+      <item><![CDATA[Fully backward compatible - Site/ folder remains as fallback]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>2.2</version>
+    <addition>
+      <item><![CDATA[Add IMG Alt Tags]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>2.1</version>
+    <addition>
+      <item><![CDATA[Add Overlay Styles]]></item>
+      <item><![CDATA[Add Editor]]></item>
+    </addition>
+    <remove>
+      <item><![CDATA[Removed Title]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Fixed Warning al_img in line 61]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Fixed Deprecated $classes in PHP 8]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Content before Module]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

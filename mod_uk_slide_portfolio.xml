@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_slide_portfolio" name="JP Slide Portfolio" currentVersion="2.6" viewId="mod_uk_slide_portfolio" viewName="JP Slide Portfolio">
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>2.6</version>
+    <note>
+      <item><![CDATA[Detailed release notes for this version are not available in the supplied package.]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Modern namespace support (Joomlaplates\Module\UkSlidePortfolio)]]></item>
+      <item><![CDATA[Dispatcher pattern implementation for Joomla 5/6]]></item>
+      <item><![CDATA[Service Provider with Dependency Injection]]></item>
+      <item><![CDATA[Type hints and strict typing throughout codebase]]></item>
+      <item><![CDATA[German language files (de-DE)]]></item>
+      <item><![CDATA[Module class suffix (Advanced tab)]]></item>
+      <item><![CDATA[README.md with detailed documentation]]></item>
+      <item><![CDATA[index.html in each folder for security]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[MAJOR: Full migration to Joomla 5/6 architecture]]></item>
+      <item><![CDATA[Updated helper.php with legacy wrapper for backwards compatibility]]></item>
+      <item><![CDATA[Modernized code structure with PSR-12 compliance]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed &quot;Undefined array key 0&quot; warning in default.php for items without tags]]></item>
+      <item><![CDATA[Fixed type handling for subform data in Dispatcher and Helper]]></item>
+      <item><![CDATA[Improved robustness for stdClass to array conversion]]></item>
+      <item><![CDATA[Changelog and language files updated]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[Now fully compatible with Joomla 5 &amp; 6 WITHOUT Compatibility Plugin]]></item>
+      <item><![CDATA[Backwards compatible with Joomla 4.x]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover Option]]></item>
+      <item><![CDATA[Fixed Endless Slides Option]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <fix>
+      <item><![CDATA[Fixed Deprecated $classes in PHP 8]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Remove special chars from modalbox &gt; äüÖÜ_:;!&quot;§$%&amp;/()=?]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <addition>
+      <item><![CDATA[Content before]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <remove>
+      <item><![CDATA[Removed Tooltp For J4 with Bootsrap 5]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Fixed Bug in Autoplay Interval]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Add Modalbox Typ &gt; Center and Fullscreen]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

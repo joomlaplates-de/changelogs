@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_slideshow" name="JP Slideshow" currentVersion="2.5" viewId="mod_uk_slideshow" viewName="JP Slideshow">
+  <changelog date="2025-02-02">
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Module class suffix applied to layout wrapper (class on outer div)]]></item>
+      <item><![CDATA[README.md and JOOMLA_5_6_COMPATIBILITY.md documentation]]></item>
+      <item><![CDATA[index.html in each folder for security (directory listing prevention)]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Version set to 2.5]]></item>
+      <item><![CDATA[Creation date set to 2025-02-02]]></item>
+      <item><![CDATA[Changelog updated for 2.5 release]]></item>
+      <item><![CDATA[Folder structure aligned with Joomla core: custom form field moved from models/fields/ to forms/fields/]]></item>
+    </change>
+    <remove>
+      <item><![CDATA[Joomla 5.x and 6.x (with or without backward compatibility plugins)]]></item>
+      <item><![CDATA[PHP 8.1+]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[### Additions]]></item>
+      <item><![CDATA[### Changes]]></item>
+      <item><![CDATA[### Compatibility]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog date="2026-01-27">
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>2.1.1</version>
+    <remove>
+      <item><![CDATA[mod_uk_slideshow.xml: Version and description updated; Joomla 5 &amp; 6 compatible]]></item>
+      <item><![CDATA[forms/form.xml: addfieldpath corrected to /modules/mod_uk_slideshow/forms/fields]]></item>
+      <item><![CDATA[forms/fields/videos.php: FormFieldVideos, _JEXEC guard, DocBlocks]]></item>
+      <item><![CDATA[tmpl/default.php: Uri::base(), htmlspecialchars() for output escaping]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[### Joomla 5 &amp; 6 compatibility fixes]]></item>
+      <item><![CDATA[#### Critical]]></item>
+      <item><![CDATA[#### Recommended]]></item>
+    </note>
+  </changelog>
+  <changelog date="2026-01-27">
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>2.1</version>
+    <remove>
+      <item><![CDATA[Joomla 4 support]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>2.0</version>
+    <addition>
+      <item><![CDATA[Main image link]]></item>
+    </addition>
+    <fix>
+      <item><![CDATA[Prefix change to &quot;JP&quot; for all modules]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed XML version (not needed for J5/J6)]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.9</version>
+    <fix>
+      <item><![CDATA[Changed XML path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.8</version>
+    <addition>
+      <item><![CDATA[Module class suffix (Advanced options)]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover option]]></item>
+      <item><![CDATA[Fixed Endless Slides option]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <addition>
+      <item><![CDATA[Colour selection for background and content]]></item>
+    </addition>
+    <remove>
+      <item><![CDATA[Removed animations]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <addition>
+      <item><![CDATA[ALT tag for images]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <fix>
+      <item><![CDATA[Fixed autoplay interval bug]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <addition>
+      <item><![CDATA[Local video files (mp4 etc.), slide videos and/or images]]></item>
+    </addition>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <addition>
+      <item><![CDATA[Animation options]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[More content position options]]></item>
+      <item><![CDATA[Editor field before slideshow]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slideshow</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial release<br />Legend: * Security | # Bug fix | $ Language | + Addition | ^ Change | - Removed | ! Note]]></item>
+    </addition>
+  </changelog>
+</changelogs>

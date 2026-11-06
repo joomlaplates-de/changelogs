@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_slider" name="JP Slider" currentVersion="2.5" viewId="mod_uk_slider" viewName="JP Slider">
+  <changelog date="2025-02-02">
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Card Animation parameter added (card_animation) - enables/disables uk-card-hover CSS class for card hover effects]]></item>
+      <item><![CDATA[Image Animation parameter added (img_animation) - enables/disables img-hover CSS class for image hover effects]]></item>
+      <item><![CDATA[German language files added (de-DE/mod_uk_slider.ini and mod_uk_slider.sys.ini)]]></item>
+      <item><![CDATA[Card CSS class parameter added (card_class) - allows custom CSS classes for uk-card div (e.g. uk-card-hover)]]></item>
+      <item><![CDATA[Module class suffix applied to layout wrapper (mod_uk_slider + suffix)]]></item>
+      <item><![CDATA[README.md and COMPATIBILITY_VERIFICATION.md added]]></item>
+      <item><![CDATA[index.html added to each folder for security]]></item>
+      <item><![CDATA[Responsive CSS added - slider container offset removed on mobile/tablet (max-width: 959px)]]></item>
+      <item><![CDATA[hover-effect class added to images for consistent hover behavior]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[CSS class names changed from .card_animation to .uk-card-hover (UIkit naming convention)]]></item>
+      <item><![CDATA[CSS class names changed from .img-animation to .img-hover (consistent naming)]]></item>
+      <item><![CDATA[Fixed CSS selector bug: img-animation:hover changed to .img-hover:hover (missing dot)]]></item>
+      <item><![CDATA[default.php: uk-card-hover class now conditionally added based on card_animation parameter]]></item>
+      <item><![CDATA[default.php: img-hover class now conditionally added based on img_animation parameter]]></item>
+      <item><![CDATA[Center content option changed from &quot;text-left&quot; to &quot;text-start&quot; for better Bootstrap/UIkit compatibility]]></item>
+      <item><![CDATA[Hover effect simplified - replaced complex backdrop animation with CSS filter brightness effect]]></item>
+      <item><![CDATA[Card HTML structure improved - uk-card class moved to outer div, center class applied to content div]]></item>
+      <item><![CDATA[Folder structure aligned with Joomla core: language/ (singular), en-GB/mod_uk_slider.ini and mod_uk_slider.sys.ini]]></item>
+      <item><![CDATA[Manifest: languages folder=&quot;language&quot;, moduleclass_sfx type=&quot;text&quot;, XML indentation normalized]]></item>
+    </change>
+    <remove>
+      <item><![CDATA[Removed legacy languages/ folder and en-GB.*.ini filenames]]></item>
+    </remove>
+    <language>
+      <item><![CDATA[Language: typos fixed (Grid collapse, Auto-width), sys description updated]]></item>
+    </language>
+    <note>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.8</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <addition>
+      <item><![CDATA[Add Editor to content area]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover Bug]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <fix>
+      <item><![CDATA[Fixed Deprecated $classes in PHP 8]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Fixed Shadow inline]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Fixed Autoplay Interval]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Fixed Link Target &gt; blank self]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slider</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

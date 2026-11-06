@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_accordion" name="JP Accordion" currentVersion="2.5" viewId="mod_uk_accordion" viewName="JP Accordion">
+  <changelog>
+    <element>mod_uk_accordion</element>
+    <type>module</type>
+    <version>2.5</version>
+    <remove>
+      <item><![CDATA[Module Class Suffix functionality (fully implemented)]]></item>
+      <item><![CDATA[Namespace declaration in XML manifest for J5+ compatibility]]></item>
+      <item><![CDATA[Separated CSS file (media/css/accordion.css) for better code organization]]></item>
+      <item><![CDATA[HTMLHelper for proper CSS loading]]></item>
+      <item><![CDATA[Lazy loading for images (performance improvement)]]></item>
+      <item><![CDATA[FontAwesome fallback CSS for environments without FA loaded]]></item>
+      <item><![CDATA[Complete language strings for all fields]]></item>
+      <item><![CDATA[Descriptions for all XML fields]]></item>
+      <item><![CDATA[Media folder structure in XML manifest]]></item>
+      <item><![CDATA[Toggle option to show or hide the accordion indicator arrow per module]]></item>
+      <item><![CDATA[Changed `&lt;n&gt;` to `&lt;n&gt;` in XML manifest (J5+ requirement)]]></item>
+      <item><![CDATA[Fixed typo: &quot;Image wIdth&quot; → &quot;Image Width&quot;]]></item>
+      <item><![CDATA[Added XSS protection with htmlspecialchars() for all user outputs]]></item>
+      <item><![CDATA[Changed content filter from &quot;raw&quot; to &quot;safehtml&quot; (security improvement)]]></item>
+      <item><![CDATA[Changed link field type from &quot;text&quot; to &quot;url&quot; (validation)]]></item>
+      <item><![CDATA[Fixed missing $moduleclass_sfx in template output]]></item>
+      <item><![CDATA[Fixed missing sanitation in mod_uk_accordion.php]]></item>
+      <item><![CDATA[Added null coalescing operator for safer default values]]></item>
+      <item><![CDATA[Fixed potential undefined variable warnings]]></item>
+      <item><![CDATA[All user inputs now properly escaped with htmlspecialchars()]]></item>
+      <item><![CDATA[Content filter changed from &quot;raw&quot; to &quot;safehtml&quot;]]></item>
+      <item><![CDATA[Link URLs validated with proper field type]]></item>
+      <item><![CDATA[Added ENT_QUOTES flag for complete XSS protection]]></item>
+      <item><![CDATA[Integer casting for numeric parameters (duration, img_width)]]></item>
+      <item><![CDATA[Moved 59 lines of inline CSS to external file]]></item>
+      <item><![CDATA[Better code organization and separation of concerns]]></item>
+      <item><![CDATA[Added loading=&quot;lazy&quot; attribute to images]]></item>
+      <item><![CDATA[Cleaner template code with modern PHP syntax (short array syntax)]]></item>
+      <item><![CDATA[Added CSS fallback for missing FontAwesome]]></item>
+      <item><![CDATA[Responsive image handling improved]]></item>
+      <item><![CDATA[Better code comments and documentation]]></item>
+      <item><![CDATA[Added 25+ missing language strings]]></item>
+      <item><![CDATA[All hardcoded labels now use language constants]]></item>
+      <item><![CDATA[Proper descriptions added for all parameters]]></item>
+      <item><![CDATA[Backwards compatibility language keys maintained]]></item>
+      <item><![CDATA[✅ Joomla 5.x fully compatible]]></item>
+      <item><![CDATA[✅ Joomla 6.x ready (namespace-based, modern API)]]></item>
+      <item><![CDATA[✅ Works with and without Joomla Compatibility Plugin]]></item>
+      <item><![CDATA[✅ Backwards compatible with UIkit 3]]></item>
+      <item><![CDATA[`&lt;n&gt;` tag (replaced with `&lt;n&gt;`)]]></item>
+      <item><![CDATA[Inline styles (moved to external CSS)]]></item>
+      <item><![CDATA[Direct variable output without escaping]]></item>
+      <item><![CDATA[UIkit 3 Accordion implementation]]></item>
+      <item><![CDATA[Customizable colors and spacing]]></item>
+      <item><![CDATA[Image support with lightbox option]]></item>
+      <item><![CDATA[Multiple/collapsible modes]]></item>
+      <item><![CDATA[Animation controls]]></item>
+      <item><![CDATA[Module Class Suffix not implemented]]></item>
+      <item><![CDATA[Missing language strings]]></item>
+      <item><![CDATA[XSS vulnerabilities]]></item>
+      <item><![CDATA[Inline CSS]]></item>
+      <item><![CDATA[Deprecated XML structure]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[### ✅ ADDED]]></item>
+      <item><![CDATA[### 🔧 FIXED]]></item>
+      <item><![CDATA[### 🔐 SECURITY]]></item>
+      <item><![CDATA[### 🎨 IMPROVEMENTS]]></item>
+      <item><![CDATA[### 🌍 LANGUAGE FILES]]></item>
+      <item><![CDATA[### ⚙️ COMPATIBILITY]]></item>
+      <item><![CDATA[### 📋 DEPRECATED]]></item>
+      <item><![CDATA[### Features]]></item>
+      <item><![CDATA[### Known Issues (Fixed in v2.6)]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+</changelogs>

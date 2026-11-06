@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogIndex schemaVersion="1">
+  <view id="mod_article_dgrid" name="JP Article Dgrid" type="module" version="2.7" file="mod_article_dgrid.xml">
+    <product id="mod_article_dgrid"/>
+  </view>
+  <view id="mod_article_grid" name="JP Article Grid" type="module" version="2.7" file="mod_article_grid.xml">
+    <product id="mod_article_grid"/>
+  </view>
+  <view id="mod_article_slider" name="JP Article Slider" type="module" version="2.7" file="mod_article_slider.xml">
+    <product id="mod_article_slider"/>
+  </view>
+  <view id="mod_article_slideshow" name="JP Article Slideshow" type="module" version="2.7" file="mod_article_slideshow.xml">
+    <product id="mod_article_slideshow"/>
+  </view>
+  <view id="mod_floating_buttons" name="JP Floating Buttons" type="module" version="2.7" file="mod_floating_buttons.xml">
+    <product id="mod_floating_buttons"/>
+  </view>
+  <view id="mod_shape_divider" name="JP Shape Divider" type="module" version="2.5" file="mod_shape_divider.xml">
+    <product id="mod_shape_divider"/>
+  </view>
+  <view id="mod_uk_accordion" name="JP Accordion" type="module" version="2.5" file="mod_uk_accordion.xml">
+    <product id="mod_uk_accordion"/>
+  </view>
+  <view id="mod_uk_counter" name="JP Counter" type="module" version="2.6" file="mod_uk_counter.xml">
+    <product id="mod_uk_counter"/>
+  </view>
+  <view id="mod_uk_dgallery" name="JP Dgallery" type="module" version="2.6" file="mod_uk_dgallery.xml">
+    <product id="mod_uk_dgallery"/>
+  </view>
+  <view id="mod_uk_dotnav" name="JP Dotnav" type="module" version="2.5" file="mod_uk_dotnav.xml">
+    <product id="mod_uk_dotnav"/>
+  </view>
+  <view id="mod_uk_gallery" name="JP Gallery" type="module" version="2.5" file="mod_uk_gallery.xml">
+    <product id="mod_uk_gallery"/>
+  </view>
+  <view id="mod_uk_gallery_slideshow" name="JP Gallery Slideshow" type="module" version="2.7" file="mod_uk_gallery_slideshow.xml">
+    <product id="mod_uk_gallery_slideshow"/>
+  </view>
+  <view id="mod_uk_gallery_text" name="JP Gallery Text" type="module" version="2.5" file="mod_uk_gallery_text.xml">
+    <product id="mod_uk_gallery_text"/>
+  </view>
+  <view id="mod_uk_grid" name="JP Grid" type="module" version="2.5" file="mod_uk_grid.xml">
+    <product id="mod_uk_grid"/>
+  </view>
+  <view id="mod_uk_grid_portfolio" name="JP Grid Portfolio" type="module" version="2.5" file="mod_uk_grid_portfolio.xml">
+    <product id="mod_uk_grid_portfolio"/>
+  </view>
+  <view id="mod_uk_iconnav" name="JP Iconnav" type="module" version="2.5" file="mod_uk_iconnav.xml">
+    <product id="mod_uk_iconnav"/>
+  </view>
+  <view id="mod_uk_pricetable" name="JP Pricetable" type="module" version="2.7" file="mod_uk_pricetable.xml">
+    <product id="mod_uk_pricetable"/>
+  </view>
+  <view id="mod_uk_progressbar" name="JP Progressbar" type="module" version="2.5" file="mod_uk_progressbar.xml">
+    <product id="mod_uk_progressbar"/>
+  </view>
+  <view id="mod_uk_skills" name="JP Skills" type="module" version="2.5" file="mod_uk_skills.xml">
+    <product id="mod_uk_skills"/>
+  </view>
+  <view id="mod_uk_slide_portfolio" name="JP Slide Portfolio" type="module" version="2.6" file="mod_uk_slide_portfolio.xml">
+    <product id="mod_uk_slide_portfolio"/>
+  </view>
+  <view id="mod_uk_slide_portfolio2" name="JP Slide Portfolio2" type="module" version="2.5" file="mod_uk_slide_portfolio2.xml">
+    <product id="mod_uk_slide_portfolio2"/>
+  </view>
+  <view id="mod_uk_slider" name="JP Slider" type="module" version="2.5" file="mod_uk_slider.xml">
+    <product id="mod_uk_slider"/>
+  </view>
+  <view id="mod_uk_slideshow" name="JP Slideshow" type="module" version="2.5" file="mod_uk_slideshow.xml">
+    <product id="mod_uk_slideshow"/>
+  </view>
+  <view id="mod_uk_stripes" name="JP Stripes" type="module" version="2.5" file="mod_uk_stripes.xml">
+    <product id="mod_uk_stripes"/>
+  </view>
+  <view id="mod_uk_switcher" name="JP Switcher" type="module" version="2.6" file="mod_uk_switcher.xml">
+    <product id="mod_uk_switcher"/>
+  </view>
+  <view id="mod_uk_timeline" name="JP Timeline" type="module" version="2.5" file="mod_uk_timeline.xml">
+    <product id="mod_uk_timeline"/>
+  </view>
+  <view id="mod_uk_typewriter" name="JP Typewriter" type="module" version="2.6" file="mod_uk_typewriter.xml">
+    <product id="mod_uk_typewriter"/>
+  </view>
+  <view id="mod_uk_video_slideshow" name="JP Video Slideshow" type="module" version="2.5" file="mod_uk_video_slideshow.xml">
+    <product id="mod_uk_video_slideshow"/>
+  </view>
+  <view id="plg_system_uikit4" name="UIkit Framework Plugin" type="plugin" version="4.0.17" file="plg_system_uikit4.xml">
+    <product id="plg_system_uikit4"/>
+  </view>
+  <view id="templates" name="All templates" type="template" version="2.8" file="tp_adventure.xml">
+    <product id="tp_adventure"/>
+    <product id="tp_advocat"/>
+    <product id="tp_artist"/>
+    <product id="tp_artworks"/>
+    <product id="tp_b2b"/>
+    <product id="tp_barber"/>
+    <product id="tp_beauty"/>
+    <product id="tp_bike"/>
+    <product id="tp_biz"/>
+    <product id="tp_brand"/>
+    <product id="tp_brush"/>
+    <product id="tp_business"/>
+    <product id="tp_classic"/>
+    <product id="tp_company"/>
+    <product id="tp_construction"/>
+    <product id="tp_custom"/>
+    <product id="tp_dentist"/>
+    <product id="tp_easy"/>
+    <product id="tp_exchange"/>
+    <product id="tp_expert"/>
+    <product id="tp_fago"/>
+    <product id="tp_fashion"/>
+    <product id="tp_fire"/>
+    <product id="tp_golf"/>
+    <product id="tp_gusto"/>
+    <product id="tp_gym"/>
+    <product id="tp_handwerk"/>
+    <product id="tp_hifi"/>
+    <product id="tp_hope"/>
+    <product id="tp_hotel"/>
+    <product id="tp_ice"/>
+    <product id="tp_industry"/>
+    <product id="tp_interior"/>
+    <product id="tp_landing"/>
+    <product id="tp_lawyer"/>
+    <product id="tp_life"/>
+    <product id="tp_master"/>
+    <product id="tp_me"/>
+    <product id="tp_medical"/>
+    <product id="tp_modern"/>
+    <product id="tp_musician"/>
+    <product id="tp_onepage"/>
+    <product id="tp_outfit"/>
+    <product id="tp_pasta"/>
+    <product id="tp_perfect"/>
+    <product id="tp_photo"/>
+    <product id="tp_portfolio"/>
+    <product id="tp_power"/>
+    <product id="tp_private"/>
+    <product id="tp_schule"/>
+    <product id="tp_shop"/>
+    <product id="tp_simple"/>
+    <product id="tp_snowflake"/>
+    <product id="tp_solution"/>
+    <product id="tp_sounds"/>
+    <product id="tp_sport"/>
+    <product id="tp_surfing"/>
+    <product id="tp_technology"/>
+    <product id="tp_time"/>
+    <product id="tp_travel"/>
+    <product id="tp_ultimate"/>
+    <product id="tp_verein"/>
+    <product id="tp_versity"/>
+    <product id="tp_wedding"/>
+    <product id="tp_work"/>
+  </view>
+  <view id="templates_tp_barrierefrei" name="Templates — Barrierefrei exception" type="template" version="2.8" file="tp_barrierefrei.xml">
+    <product id="tp_barrierefrei"/>
+  </view>
+  <view id="templates_tp_top" name="Templates — Top exception" type="template" version="2.8" file="tp_top.xml">
+    <product id="tp_top"/>
+  </view>
+</changelogIndex>

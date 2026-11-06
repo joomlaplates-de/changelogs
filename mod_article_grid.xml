@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_article_grid" name="JP Article Grid" currentVersion="2.7" viewId="mod_article_grid" viewName="JP Article Grid">
+  <changelog date="2026-04-20">
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.7</version>
+    <addition>
+      <item><![CDATA[Back to Version Recursion prevention for {loadmodule}/{loadposition} is now user-controlled]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[XML field show_featured aligned with core mod_articles (values: show/hide/only, default &quot;show&quot;, validate=&quot;options&quot;, removed filter=&quot;integer&quot;)]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed &quot;Show Featured Articles&quot; parameter had no effect]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[After update please re-save each module instance so the new option value is stored correctly]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog date="2026-02-15">
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.6</version>
+    <addition>
+      <item><![CDATA[Added &quot;Exclude articles with {loadmodule}&quot; toggle (default: No)]]></item>
+      <item><![CDATA[Added include/exclude articles feature (modal_article field, like core mod_articles)]]></item>
+      <item><![CDATA[Added &quot;Exclude Current Article&quot; toggle]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Recursion prevention for {loadmodule}/{loadposition} is now user-controlled]]></item>
+      <item><![CDATA[Previously articles with {loadmodule} were always excluded (memory overflow protection)]]></item>
+      <item><![CDATA[Admin can now decide per module instance whether to filter these articles]]></item>
+      <item><![CDATA[Version bump to 2.6]]></item>
+    </change>
+    <language>
+      <item><![CDATA[Added language keys MOD_ARTICLES_FIELD_EXCLUDE_LOADMODULE_LABEL/DESC (en-GB, de-DE)]]></item>
+    </language>
+  </changelog>
+  <changelog date="2026-02-01">
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Added index.html files to all directories for security]]></item>
+      <item><![CDATA[Added README.md with installation and usage instructions]]></item>
+      <item><![CDATA[Joomla 5/6 native - no backward compatibility layer needed]]></item>
+      <item><![CDATA[Works with and without compatibility plugin]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Complete migration to Joomla 5/6 architecture]]></item>
+      <item><![CDATA[Based on core Joomla mod_articles structure (Joomla 5.2+)]]></item>
+      <item><![CDATA[Implemented namespace structure (Joomla\Module\ArticleGrid\Site)]]></item>
+      <item><![CDATA[Added Dispatcher pattern for Joomla 5/6 compatibility]]></item>
+      <item><![CDATA[Created services/provider.php for dependency injection]]></item>
+      <item><![CDATA[Migrated helper class to namespaced ArticleGridHelper]]></item>
+      <item><![CDATA[Uses modern MVC Factory pattern for content model]]></item>
+      <item><![CDATA[Implements DatabaseAwareInterface and DatabaseAwareTrait]]></item>
+      <item><![CDATA[Updated to use ContentComponent::CONDITION_PUBLISHED]]></item>
+      <item><![CDATA[Modern event dispatcher for content plugins (afterDisplayTitle, beforeDisplayContent, afterDisplayContent)]]></item>
+      <item><![CDATA[Module caching using ModuleHelper::moduleCache]]></item>
+      <item><![CDATA[Updated manifest XML with namespace declaration]]></item>
+      <item><![CDATA[Reorganized language files into language/en-GB/ folder]]></item>
+      <item><![CDATA[Added comprehensive language strings for all fields]]></item>
+      <item><![CDATA[Updated all template files with modern Joomla 5/6 structure]]></item>
+      <item><![CDATA[Template uses original introtext_limit and strip_tags parameters from XML]]></item>
+      <item><![CDATA[Fixed Module Class Suffix - only applied to main container, removed from headlines]]></item>
+      <item><![CDATA[Content preparation with HTMLHelper::_(&apos;content.prepare&apos;) in helper]]></item>
+      <item><![CDATA[Image removal from introtext when image parameter is disabled]]></item>
+    </change>
+  </changelog>
+  <changelog date="2026-01-04">
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.3</version>
+    <fix>
+      <item><![CDATA[Fixed Readmore Button]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.2</version>
+    <addition>
+      <item><![CDATA[Add more sorting options]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.1</version>
+    <addition>
+      <item><![CDATA[Add Article Link to the Image Option]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>2.0</version>
+    <change>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </change>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <fix>
+      <item><![CDATA[Replaced &quot;&amp;&quot; for &quot;?&quot; for J4 Popup]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <fix>
+      <item><![CDATA[Select Strip HTML Tags &gt; YES or NO]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Fixed Strip HTML Tags]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <fix>
+      <item><![CDATA[Fixed Deprecated in PHP 8]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Fixed missing DIV]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <addition>
+      <item><![CDATA[Add Language Tag &gt; ALL]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Add Readmore class and Text]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_grid</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release<br />Legend:]]></item>
+    </addition>
+  </changelog>
+</changelogs>

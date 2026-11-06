@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_floating_buttons" name="JP Floating Buttons" currentVersion="2.7" viewId="mod_floating_buttons" viewName="JP Floating Buttons">
+  <changelog>
+    <element>mod_floating_buttons</element>
+    <type>module</type>
+    <version>2.7</version>
+    <note>
+      <item><![CDATA[Detailed release notes for this version are not available in the supplied package.]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+</changelogs>

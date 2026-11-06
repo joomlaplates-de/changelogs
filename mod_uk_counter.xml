@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_counter" name="JP Counter" currentVersion="2.6" viewId="mod_uk_counter" viewName="JP Counter">
+  <changelog date="2026-03-25">
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>2.6</version>
+    <change>
+      <item><![CDATA[jQuery: Replaced bundled jquery.js with Joomla core assets (jquery, jquery-noconflict)]]></item>
+      <item><![CDATA[Proper WAM dependency chain: jquery → jquery-noconflict → waypoints → counterup]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed WebAssetManager dependency declaration: dependencies moved from param 3 (options) to param 5 (dependencies)]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed bundled jquery.js registration from template]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog date="2025-02-07">
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>2.5.0</version>
+    <addition>
+      <item><![CDATA[Full migration to modern Joomla 5/6 architecture with namespaced classes]]></item>
+      <item><![CDATA[Namespace: Joomlaplates\Module\UkCounter with proper PSR-4 autoloading]]></item>
+      <item><![CDATA[src/Helper/CounterHelper.php - Namespaced helper class with type hints]]></item>
+      <item><![CDATA[src/Dispatcher/Dispatcher.php - Modern dispatcher using AbstractModuleDispatcher]]></item>
+      <item><![CDATA[services/provider.php - Dependency Injection container registration]]></item>
+      <item><![CDATA[New parameter: &quot;Card Class&quot; - Add custom CSS classes to uk-card div]]></item>
+      <item><![CDATA[German language files (de-DE) - Complete translation]]></item>
+      <item><![CDATA[JavaScript dependency management: jQuery → Waypoints → CounterUp]]></item>
+      <item><![CDATA[Type-safe PHP code (PHP 7.4+ type hints throughout)]]></item>
+      <item><![CDATA[Module class suffix applied to layout wrapper (mod_uk_counter + suffix).]]></item>
+      <item><![CDATA[Empty index.html in root, forms, js, languages, languages/en-GB, languages/de-DE, tmpl, src, src/Helper, src/Dispatcher, services.]]></item>
+      <item><![CDATA[MIGRATION.md - Complete documentation of architectural changes]]></item>
+      <item><![CDATA[CHANGELOG_2.5.0.md - Detailed documentation of new features]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[mod_uk_counter.php - Modern bootModule() approach with legacy fallback]]></item>
+      <item><![CDATA[tmpl/default.php - WebAssetManager for JavaScript loading (replaces direct &lt;script&gt; tags)]]></item>
+      <item><![CDATA[tmpl/default.php - Card class parameter implemented with XSS protection]]></item>
+      <item><![CDATA[Manifest: Added namespace definition, new folders (src, services), and de-DE language]]></item>
+      <item><![CDATA[Template: wrapper div with moduleclass_sfx; removed unused Factory/Text imports.]]></item>
+      <item><![CDATA[Language files: package set to mod_uk_counter, typo &quot;clooapse&quot; → &quot;collapse&quot;, new keys for form labels, license URL to https.]]></item>
+      <item><![CDATA[Form: duplicate count_number_size field removed; &quot;Font Awesomee&quot; → language key; form fields use size instead of class.]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Joomla 5 and Joomla 6 compatibility. Works with and without the Joomla compatibility plugin.]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[All modules use &quot;JP&quot; name prefix.]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Dropped XML version requirement for J5/J6.]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Ready for J5 and J6 without compatibility plugin.]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <fix>
+      <item><![CDATA[Updated XML path for updates.]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <addition>
+      <item><![CDATA[Module class suffix option.]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <addition>
+      <item><![CDATA[jQuery scripts loaded locally.]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Removed duplicate module-before-content output.]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <addition>
+      <item><![CDATA[Scripts loaded locally; RGBA colors; Counter delay and time options.]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_counter</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial release.]]></item>
+    </addition>
+  </changelog>
+</changelogs>

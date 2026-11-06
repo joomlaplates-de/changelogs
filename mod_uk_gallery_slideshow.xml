@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_gallery_slideshow" name="JP Gallery Slideshow" currentVersion="2.7" viewId="mod_uk_gallery_slideshow" viewName="JP Gallery Slideshow">
+  <changelog>
+    <element>mod_uk_gallery_slideshow</element>
+    <type>module</type>
+    <version>2.7</version>
+    <note>
+      <item><![CDATA[Detailed release notes for this version are not available in the supplied package.]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_slideshow</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Initial release]]></item>
+      <item><![CDATA[JP Gallery Slideshow — reads images from a selectable folder and displays them as a UIkit 3 slideshow]]></item>
+      <item><![CDATA[Sorting: Name ASC/DESC, Time ASC/DESC, Random]]></item>
+      <item><![CDATA[Configurable slide limit]]></item>
+      <item><![CDATA[Full UIkit slideshow controls (dotnav, slidenav, animation, autoplay, velocity, ratio, pause on hover, finite)]]></item>
+      <item><![CDATA[Joomla 5/6 Dispatcher pattern with legacy fallback for Joomla 3/4]]></item>
+      <item><![CDATA[Namespace: Joomlaplates\Module\UkGallerySlideshow]]></item>
+      <item><![CDATA[Empty index.html in every folder]]></item>
+    </addition>
+  </changelog>
+</changelogs>

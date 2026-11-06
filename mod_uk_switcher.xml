@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_switcher" name="JP Switcher" currentVersion="2.6" viewId="mod_uk_switcher" viewName="JP Switcher">
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>2.6</version>
+    <note>
+      <item><![CDATA[Detailed release notes for this version are not available in the supplied package.]]></item>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog date="2025-02-03">
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Module class suffix applied to layout wrapper (mod_uk_switcher + suffix)]]></item>
+      <item><![CDATA[README.md and COMPLIANCE_REPORT.md added]]></item>
+      <item><![CDATA[Empty index.html in each folder for security (directory listing prevention)]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Version set to 2.5, creation date updated]]></item>
+      <item><![CDATA[Changelog restructured]]></item>
+      <item><![CDATA[Folder structure aligned with Joomla core: &quot;languages&quot; renamed to &quot;language&quot;, language files to mod_uk_switcher.ini / mod_uk_switcher.sys.ini (no en-GB. prefix)]]></item>
+    </change>
+    <remove>
+      <item><![CDATA[**Typ:** Yes/No Radio Button]]></item>
+      <item><![CDATA[**Funktion:** Aktiviert die CSS-Klasse `uk-card-hover` auf dem Karten-DIV]]></item>
+      <item><![CDATA[**Effekt:** Karte hebt sich beim Hover um 10px nach oben]]></item>
+      <item><![CDATA[**CSS:**<br />  ```css<br />  .uk-card-hover {<br />    transition: all 0.5s ease !important;<br />  }<br />  .uk-card-hover:hover {<br />    transform: translateY(-10px);<br />  }<br />  ```]]></item>
+      <item><![CDATA[**Typ:** Yes/No Radio Button]]></item>
+      <item><![CDATA[**Funktion:** Aktiviert die CSS-Klasse `img-hover` auf Bildern]]></item>
+      <item><![CDATA[**Effekt:** Bild wird beim Hover dunkler (Brightness 0.5)]]></item>
+      <item><![CDATA[**CSS:**<br />  ```css<br />  .img-hover { <br />    transition: filter 0.5s <br />  }<br />  .img-hover:hover { <br />    filter: brightness(0.5); <br />  }<br />  ```]]></item>
+      <item><![CDATA[**Typ:** Textfeld]]></item>
+      <item><![CDATA[**Funktion:** Fügt beliebige CSS-Klassen als Suffix hinzu]]></item>
+      <item><![CDATA[**Beispiel:** `my-custom-class another-class`]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[#### 1. **Card Animation**]]></item>
+      <item><![CDATA[#### 2. **Image Animation**]]></item>
+      <item><![CDATA[#### 3. **Card Class**]]></item>
+    </note>
+  </changelog>
+  <changelog date="2024-12-30">
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>2.0</version>
+    <addition>
+      <item><![CDATA[Joomla 5/6 compatibility: targetplatform, form-control classes, escaping, language keys]]></item>
+      <item><![CDATA[MOD_UK_SWITCHER_* language prefix (MVC conform), sys.ini for name/description]]></item>
+      <item><![CDATA[Language load in module PHP for layout/overrides]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Changes prefix: all modules now use &quot;JP&quot; module name]]></item>
+      <item><![CDATA[Ready for Joomla 5 and Joomla 6 without compatibility plugin]]></item>
+    </change>
+    <remove>
+      <item><![CDATA[Removed XML version (not needed for J5/J6)]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <change>
+      <item><![CDATA[Changed the XML path for updates]]></item>
+    </change>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <addition>
+      <item><![CDATA[Module class suffix (admin option)]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <addition>
+      <item><![CDATA[Editor option for content]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <fix>
+      <item><![CDATA[Fixed background NONE style]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <addition>
+      <item><![CDATA[Grid @small and space for text]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <remove>
+      <item><![CDATA[Removed tooltip for J4 with Bootstrap 5]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <fix>
+      <item><![CDATA[Fixed bug in autoplay interval]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_switcher</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial release<br />Legend]]></item>
+      <item><![CDATA[Addition]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Change]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Bug fix]]></item>
+    </fix>
+    <security>
+      <item><![CDATA[Security fix]]></item>
+    </security>
+    <remove>
+      <item><![CDATA[Removed]]></item>
+    </remove>
+    <language>
+      <item><![CDATA[Language fix or change]]></item>
+    </language>
+    <note>
+      <item><![CDATA[Note]]></item>
+    </note>
+  </changelog>
+</changelogs>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="mod_uk_slide_portfolio2" name="JP Slide Portfolio2" currentVersion="2.5" viewId="mod_uk_slide_portfolio2" viewName="JP Slide Portfolio2">
+  <changelog>
+    <element>mod_uk_slide_portfolio2</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Added namespace support (Joomlaplates\Module\UkSlidePortfolio2)]]></item>
+      <item><![CDATA[Added src/Helper/UkSlidePortfolio2Helper.php with modern helper structure]]></item>
+      <item><![CDATA[Added src/Dispatcher/Dispatcher.php for Joomla 5/6 compatibility]]></item>
+      <item><![CDATA[Added services/provider.php for Dependency Injection]]></item>
+      <item><![CDATA[Now fully compatible with Joomla 5.x and 6.x WITHOUT compatibility plugin]]></item>
+      <item><![CDATA[Automatic Modal ID generation (based on module ID and item index)]]></item>
+      <item><![CDATA[Added &quot;Card Animation&quot; parameter (enables uk-card-hover class)]]></item>
+      <item><![CDATA[Added &quot;Image Animation&quot; parameter (enables img-hover class)]]></item>
+      <item><![CDATA[Added &quot;Card Class&quot; parameter (custom CSS classes for cards)]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Migrated to Joomla 5/6 architecture with namespaces]]></item>
+      <item><![CDATA[Modernized entry point (mod_uk_slide_portfolio2.php)]]></item>
+      <item><![CDATA[Updated XML manifest with namespace declaration]]></item>
+      <item><![CDATA[Changed &quot;Content&quot; field from textarea to editor (full WYSIWYG support)]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed: Modal IDs are now always unique, even with multiple module instances]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed manual &quot;modal_link&quot; field from form (no longer needed)]]></item>
+      <item><![CDATA[Removed Modal ID info note from form (cleaner interface)]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Changelog metadata update (2026-11-06): Release notes are now maintained as XML and published centrally at https://github.com/joomlaplates-de/changelogs. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio2</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin (claimed, but not implemented)]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio2</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover Bug]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_slide_portfolio2</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>
