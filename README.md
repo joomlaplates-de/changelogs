@@ -5,8 +5,8 @@ Installable premium packages are **not** stored in this repository.
 
 ## Public endpoints
 
-- Website data: `https://raw.githubusercontent.com/joomlaplates-de/joomlaplates-changelogs/main/generated/catalog.json`
-- Joomla XML: `https://raw.githubusercontent.com/joomlaplates-de/joomlaplates-changelogs/main/generated/xml/PRODUCT_ID.xml`
+- Website data: `https://raw.githubusercontent.com/joomlaplates-de/changelogs/main/generated/catalog.json`
+- Joomla XML: `https://raw.githubusercontent.com/joomlaplates-de/changelogs/main/generated/xml/PRODUCT_ID.xml`
 
 The XML URL belongs in `<changelogurl>` in the extension installation manifest and in its existing update-server entries. An XML changelog describes release notes; it does not provide an update ZIP or change how premium downloads work.
 
