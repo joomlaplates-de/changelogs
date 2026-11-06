@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>2.7</version>
+    <fix>
+      <item><![CDATA[Fixed UIkit slider autoplay attribute output]]></item>
+      <item><![CDATA[Fixed escaped uk-slider configuration in Joomla 5/6]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>2.6</version>
+    <addition>
+      <item><![CDATA[Add the editor]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Module class suffix applied to layout wrapper (Advanced options)]]></item>
+      <item><![CDATA[README.md and index.html in all folders]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Version set to 2.5]]></item>
+    </change>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Fixed Paramter None in style]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover Option]]></item>
+      <item><![CDATA[Fixed Endless Slides Option]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <remove>
+      <item><![CDATA[Removed Tooltip in Joomla 4]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Fixed Bug in Autoplay Interval]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <fix>
+      <item><![CDATA[Fixed Link Self and Blank]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_pricetable</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

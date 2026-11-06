@@ -1,0 +1,42 @@
+# Changelog
+	2.5 (2025-02-01)
+	^ Migrated to Joomla 5/6 native module architecture (Namespace, Dispatcher, Service Provider)
+	+ Added services/provider.php for Dependency Injection Container
+	+ Added src/Dispatcher/Dispatcher.php (replaces mod_uk_timeline.php)
+	+ Added namespace Joomlaplates\Module\UkTimeline
+	+ Added README.md
+	+ Added blank index.html to all directories
+	# Fixed Module Class Suffix not being applied in template output
+	# Fixed formsource path (removed leading slash)
+	- Removed legacy entry file mod_uk_timeline.php
+	! No longer requires System - Backward Compatibility plugin
+	! Existing module settings are preserved on update
+
+	2.0
+	# Changes Prefix. All modules have now the "JP"-Module Name
+	# Ready for J5 and J6 without compatibility Plugin
+	- Removed the XML version. Not needed anymore for J5 or J6
+	
+	1.2.3
+	# Changed the xml path for updates
+	# Add css directly instead of load css file
+	
+	1.2.2
+	+ Module Class Suffix
+
+	1.2.1
+	+ Add if else for title and subtile
+	+ Add more animations settings
+	- Removed the hr 
+
+	1.2.0
+	+ Initial Release
+
+
+	* -> Security Fix
+	# -> Bug Fix
+	$ -> Language fix or change
+	+ -> Addition
+	^ -> Change
+	- -> Removed
+	! -> Note

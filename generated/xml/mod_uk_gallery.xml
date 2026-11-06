@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Full Joomla 5/6 Architecture Implementation]]></item>
+      <item><![CDATA[Modern Dispatcher Pattern for J5/6]]></item>
+      <item><![CDATA[Namespaced Helper Classes (Joomlaplates\Module\UkGallery)]]></item>
+      <item><![CDATA[Automatic detection: Works with AND without Compatibility Plugin]]></item>
+      <item><![CDATA[Dual-mode support: Legacy (J3/4) and Modern (J5/6) side by side]]></item>
+      <item><![CDATA[Joomla 6 API compatibility (Language classes)]]></item>
+      <item><![CDATA[Type-hints and modern PHP standards]]></item>
+      <item><![CDATA[Added overlay style parameter with two options:]]></item>
+      <item><![CDATA[Empty index.html in every folder]]></item>
+      <item><![CDATA[README.md]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Helper ensures all item keys are present in tagsList]]></item>
+      <item><![CDATA[Improved code structure and maintainability]]></item>
+      <item><![CDATA[Joomla 5 and Joomla 6 compatibility (with and without compatibility plugin)]]></item>
+      <item><![CDATA[Manifest: version 2.5, encoding UTF-8, license URL https]]></item>
+      <item><![CDATA[Module class suffix: use text field, output in template]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed &quot;Undefined array key&quot; error with subform items]]></item>
+      <item><![CDATA[Improved tags handling - now preserves item keys correctly]]></item>
+      <item><![CDATA[Added safety checks for missing tags and titles]]></item>
+      <item><![CDATA[Fixed first_column_class bug (was writing to wrong variable)]]></item>
+      <item><![CDATA[Fixed tag output (removed stray &apos;UTF-8&apos;, use htmlspecialchars)]]></item>
+      <item><![CDATA[Fixed variable shadowing in template ($itemClass vs $item_class)]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Dark Overlay with White Plus Icon (uk-overlay-primary)]]></item>
+      <item><![CDATA[Light Overlay with Dark Plus Icon (uk-overlay-default)]]></item>
+    </remove>
+    <language>
+      <item><![CDATA[Language: FORM_ING -&gt; FORM_IMG, sys.ini MOD_UK_GRID -&gt; MOD_UK_GALLERY]]></item>
+    </language>
+    <note>
+      <item><![CDATA[Fully backward compatible - no breaking changes]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>2.1</version>
+    <addition>
+      <item><![CDATA[Add Shadow Option]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Fixed missing closing div]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <fix>
+      <item><![CDATA[Fixed Mansonry Option]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Fixed Image Caption in LIghtbox]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Fixed Deprecated $classes in PHP 8]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <fix>
+      <item><![CDATA[Transition load now when Scrollspy]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

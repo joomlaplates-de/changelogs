@@ -1,0 +1,64 @@
+# Changelog - mod_uk_grid (JP Simple Grid)
+
+	2.5 (2025-02-07)
+	# Fixed subform path: forms/form.xml → modules/mod_uk_grid/forms/form.xml
+	^ Updated ALL template files (default.php, overlay-dark.php, overlay-white.php)
+	^ Joomla 6 compatibility for all layouts (TextCompat alias)
+	# Fixed "Undefined array key" error in all templates
+	! Form loading error resolved
+	+ Full Joomla 5/6 Architecture Implementation
+	+ Modern Dispatcher Pattern for J5/6
+	+ Corrected Namespace: Joomla\Module\UkGrid → Joomlaplates\Module\UkGrid
+	+ Correct namespace path: "." → "src"
+	+ Automatic detection: Works with AND without Compatibility Plugin
+	+ Dual-mode support: Legacy (old Site/ folder) and Modern (new src/ folder)
+	+ Joomla 6 API compatibility (Language classes)
+	# Fixed "Undefined array key" error with subform items
+	# Improved tags handling - ensures all item keys exist in tagsList
+	^ Moved from Site/Helper/ to src/Helper/ (Site/ remains as fallback)
+	^ Improved code structure and maintainability
+	! Fully backward compatible - Site/ folder remains as fallback
+	^ Joomla 5 and Joomla 6 compatibility
+	^ Namespace updates (Joomla\CMS, manifest namespace element)
+	^ Module class suffix applied in layouts; field type set to text
+	^ Subform formsource path relative (forms/form.xml)
+	^ Language file comment fixes; license URL to https
+	^ Bug fix: first_column_class appended to grid_params instead of overwriting variable
+	^ Template output: tag and moduleclass_sfx escaped for security
+	+ Empty index.html in every folder
+	+ README.md added
+	- Removed version badge from admin description (cleaner title)
+
+	2.2
+	+ Add IMG Alt Tags
+
+	2.1
+	+ Add Overlay Styles
+	- Removed Title
+	+ Add Editor
+
+	2.0
+	# Changes Prefix. All modules have now the "JP"-Module Name
+	# Ready for J5 and J6 without compatibility Plugin
+	- Removed the XML version. Not needed anymore for J5 or J6
+
+	1.2.3
+	# Fixed Warning al_img in line 61
+
+	1.2.2
+	# Fixed Deprecated $classes in PHP 8
+
+	1.2.1
+	+ Content before Module
+
+	1.2.0
+	+ Initial Release
+
+
+	* -> Security Fix
+	# -> Bug Fix
+	$ -> Language fix or change
+	+ -> Addition
+	^ -> Change
+	- -> Removed
+	! -> Note

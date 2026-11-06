@@ -1,0 +1,68 @@
+# Changelog
+	2.5 (2025-02-07)
+	# Fixed "Undefined array key" error with subform items
+	# Improved tags handling - now preserves item keys correctly
+	# Added safety checks for missing tags and titles
+	^ Helper ensures all item keys are present in tagsList
+	+ Full Joomla 5/6 Architecture Implementation
+	+ Modern Dispatcher Pattern for J5/6
+	+ Namespaced Helper Classes (Joomlaplates\Module\UkGallery)
+	+ Automatic detection: Works with AND without Compatibility Plugin
+	+ Dual-mode support: Legacy (J3/4) and Modern (J5/6) side by side
+	+ Joomla 6 API compatibility (Language classes)
+	+ Type-hints and modern PHP standards
+	+ Added overlay style parameter with two options:
+	  - Dark Overlay with White Plus Icon (uk-overlay-primary)
+	  - Light Overlay with Dark Plus Icon (uk-overlay-default)
+	^ Improved code structure and maintainability
+	! Fully backward compatible - no breaking changes
+	^ Joomla 5 and Joomla 6 compatibility (with and without compatibility plugin)
+	^ Manifest: version 2.5, encoding UTF-8, license URL https
+	^ Module class suffix: use text field, output in template
+	# Fixed first_column_class bug (was writing to wrong variable)
+	# Fixed tag output (removed stray 'UTF-8', use htmlspecialchars)
+	# Fixed variable shadowing in template ($itemClass vs $item_class)
+	$ Language: FORM_ING -> FORM_IMG, sys.ini MOD_UK_GRID -> MOD_UK_GALLERY
+	+ Empty index.html in every folder
+	+ README.md
+
+	2.1
+	+ Add Shadow Option 
+
+	2.0
+	# Changes Prefix. All modules have now the "JP"-Module Name
+	# Ready for J5 and J6 without compatibility Plugin
+	- Removed the XML version. Not needed anymore for J5 or J6
+	
+	1.2.7
+	# Changed the xml path for updates
+	
+	1.2.6
+	+ Module Class Suffix
+
+	1.2.5
+	# Fixed missing closing div
+
+	1.2.4
+	# Fixed Mansonry Option
+
+	1.2.3
+	# Fixed Image Caption in LIghtbox
+
+	1.2.2
+	# Fixed Deprecated $classes in PHP 8
+	
+	1.2.1
+	# Transition load now when Scrollspy
+
+	1.2.0
+	+ Initial Release
+
+
+	* -> Security Fix
+	# -> Bug Fix
+	$ -> Language fix or change
+	+ -> Addition
+	^ -> Change
+	- -> Removed
+	! -> Note

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_floating_buttons</element>
+    <type>module</type>
+    <version>2.7</version>
+    <note>
+      <item><![CDATA[Detailed release notes for this version are not available in the supplied package.]]></item>
+    </note>
+  </changelog>
+</changelogs>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_iconnav</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Module class suffix applied to wrapper in layout (Advanced tab)]]></item>
+      <item><![CDATA[README.md and index.html in each folder (Joomla convention)]]></item>
+      <item><![CDATA[German language files (de-DE) added]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Version set to 2.5]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Changelog and documentation updated]]></item>
+    </fix>
+    <language>
+      <item><![CDATA[Language files cleaned (removed slider strings from IconNav .ini)]]></item>
+    </language>
+  </changelog>
+  <changelog>
+    <element>mod_uk_iconnav</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_iconnav</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_iconnav</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_iconnav</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Add BS Tooltip]]></item>
+      <item><![CDATA[Add Color Options for Icons]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_iconnav</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

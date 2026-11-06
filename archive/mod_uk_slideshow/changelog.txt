@@ -1,0 +1,80 @@
+# Changelog - JP Simple Slideshow (mod_uk_slideshow)
+
+## Version 2.5 - 2025-02-02
+
+### Additions
++ Module class suffix applied to layout wrapper (class on outer div)
++ README.md and JOOMLA_5_6_COMPATIBILITY.md documentation
++ index.html in each folder for security (directory listing prevention)
+
+### Changes
+^ Version set to 2.5
+^ Creation date set to 2025-02-02
+^ Changelog updated for 2.5 release
+^ Folder structure aligned with Joomla core: custom form field moved from models/fields/ to forms/fields/
+
+### Compatibility
+- Joomla 5.x and 6.x (with or without backward compatibility plugins)
+- PHP 8.1+
+
+---
+
+## Version 2.1.1 - 2026-01-27
+
+### Joomla 5 & 6 compatibility fixes
+
+#### Critical
+- mod_uk_slideshow.xml: Version and description updated; Joomla 5 & 6 compatible
+- forms/form.xml: addfieldpath corrected to /modules/mod_uk_slideshow/forms/fields
+
+#### Recommended
+- forms/fields/videos.php: FormFieldVideos, _JEXEC guard, DocBlocks
+- tmpl/default.php: Uri::base(), htmlspecialchars() for output escaping
+
+---
+
+## Version 2.1 - 2026-01-27
+- Joomla 4 support
+
+## Version 2.0
++ Main image link
+# Prefix change to "JP" for all modules
+# Ready for J5 and J6 without compatibility plugin
+- Removed XML version (not needed for J5/J6)
+
+## Version 1.2.9
+# Changed XML path for updates
+
+## Version 1.2.8
++ Module class suffix (Advanced options)
+
+## Version 1.2.7
+# Fixed Pause on Hover option
+# Fixed Endless Slides option
+
+## Version 1.2.6
+- Removed animations
++ Colour selection for background and content
+
+## Version 1.2.5
++ ALT tag for images
+
+## Version 1.2.4
+# Fixed autoplay interval bug
+
+## Version 1.2.3
+# Fixed Pause on Hover
++ Local video files (mp4 etc.), slide videos and/or images
+
+## Version 1.2.2
++ Animation options
+
+## Version 1.2.1
++ More content position options
++ Editor field before slideshow
+
+## Version 1.2.0
++ Initial release
+
+---
+Legend: * Security | # Bug fix | $ Language | + Addition | ^ Change | - Removed | ! Note

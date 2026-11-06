@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_skills</element>
+    <type>module</type>
+    <version>2.5</version>
+    <fix>
+      <item><![CDATA[Joomla 5 &amp; 6 Compatibility - mod_uk_skills]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[❌ Legacy entry file (`mod_uk_skills.php`)]]></item>
+      <item><![CDATA[❌ No namespaces]]></item>
+      <item><![CDATA[❌ No service provider]]></item>
+      <item><![CDATA[❌ No custom dispatcher]]></item>
+      <item><![CDATA[⚠️ XSS vulnerabilities (no output escaping)]]></item>
+      <item><![CDATA[❌ No German language files]]></item>
+      <item><![CDATA[⚠️ HTML error in manifest]]></item>
+      <item><![CDATA[⚠️ Empty sys.ini file]]></item>
+      <item><![CDATA[✅ Modern architecture with Service Provider]]></item>
+      <item><![CDATA[✅ Custom Dispatcher with namespace `Joomlaplates\Module\UkSkills`]]></item>
+      <item><![CDATA[✅ PSR-4 autoloading]]></item>
+      <item><![CDATA[✅ All output properly escaped (XSS-safe)]]></item>
+      <item><![CDATA[✅ English + German language files]]></item>
+      <item><![CDATA[✅ Valid HTML in manifest]]></item>
+      <item><![CDATA[✅ Complete language files]]></item>
+      <item><![CDATA[Added `htmlspecialchars()` for all text output]]></item>
+      <item><![CDATA[Added `(int)` casting for numeric values (circle parameters)]]></item>
+      <item><![CDATA[Protected against XSS attacks]]></item>
+      <item><![CDATA[Fixed HTML error in manifest (`&lt;p ... p&gt;` → `&lt;p&gt;`)]]></item>
+      <item><![CDATA[Filled empty `sys.ini` file]]></item>
+      <item><![CDATA[Fixed package name in sys.ini (was `mod_uk_slider`)]]></item>
+      <item><![CDATA[Created German language files (DE)]]></item>
+      <item><![CDATA[Registered DE files in XML]]></item>
+      <item><![CDATA[Created Service Provider]]></item>
+      <item><![CDATA[Created Custom Dispatcher with namespace]]></item>
+      <item><![CDATA[Dispatcher prepares slider parameters (`$sw_params`)]]></item>
+      <item><![CDATA[Dispatcher prepares grid/column classes (`$classes`)]]></item>
+      <item><![CDATA[Added namespace to XML]]></item>
+      <item><![CDATA[Updated version to 2.5]]></item>
+      <item><![CDATA[Simplified template (parameters now from Dispatcher)]]></item>
+      <item><![CDATA[Deleted legacy entry file]]></item>
+      <item><![CDATA[Updated XML files section]]></item>
+      <item><![CDATA[Slider parameters (velocity, autoplay, etc.)]]></item>
+      <item><![CDATA[Grid and column classes]]></item>
+      <item><![CDATA[Items from subform]]></item>
+      <item><![CDATA[All module parameters]]></item>
+      <item><![CDATA[**Circular progress indicators** with customizable colors]]></item>
+      <item><![CDATA[**Percentage display** in the center]]></item>
+      <item><![CDATA[**Title and description** below each circle]]></item>
+      <item><![CDATA[**Slider functionality** (UIkit slider)]]></item>
+      <item><![CDATA[**Grid layout** with responsive columns]]></item>
+      <item><![CDATA[**Animation on scroll**]]></item>
+      <item><![CDATA[Circle Color]]></item>
+      <item><![CDATA[Circle Background Color]]></item>
+      <item><![CDATA[Circle Value (0-100%)]]></item>
+      <item><![CDATA[Circle Width (px)]]></item>
+      <item><![CDATA[Circle Speed (animation duration in ms)]]></item>
+      <item><![CDATA[Circle Thickness (px)]]></item>
+      <item><![CDATA[✅ Clean, maintainable code]]></item>
+      <item><![CDATA[✅ Modern architecture]]></item>
+      <item><![CDATA[✅ PSR-4 autoloading]]></item>
+      <item><![CDATA[✅ Testable design]]></item>
+      <item><![CDATA[✅ Proper separation of concerns]]></item>
+      <item><![CDATA[✅ Better security]]></item>
+      <item><![CDATA[✅ German language support]]></item>
+      <item><![CDATA[✅ Future-proof (J7+ ready)]]></item>
+      <item><![CDATA[✅ Smooth animations]]></item>
+      <item><![CDATA[✅ No compatibility plugin needed]]></item>
+      <item><![CDATA[✅ Long-term support]]></item>
+      <item><![CDATA[✅ Production-ready]]></item>
+      <item><![CDATA[**uk-slider** for slider functionality]]></item>
+      <item><![CDATA[**uk-grid** for responsive layouts]]></item>
+      <item><![CDATA[**uk-card** for styling]]></item>
+      <item><![CDATA[Custom ToxProgress library for circle animations]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[**Module:** JP Skills]]></item>
+      <item><![CDATA[**Version:** 2.5]]></item>
+      <item><![CDATA[**Date:** February 2025]]></item>
+      <item><![CDATA[**Status:** ✅ Fully Compatible]]></item>
+      <item><![CDATA[## Summary<br />The module **mod_uk_skills** has been successfully modernized to **Joomla 4/5/6 architecture** with namespaces, service providers, and custom dispatcher pattern. It is now **fully compatible** with Joomla 5 and 6, with and without backward compatibility plugins.]]></item>
+      <item><![CDATA[## Migration Details]]></item>
+      <item><![CDATA[### Before (Version 2.0)]]></item>
+      <item><![CDATA[### After (Version 2.5)]]></item>
+      <item><![CDATA[## Changes Made (Step by Step)]]></item>
+      <item><![CDATA[### Step 1: Security - Output Escaping]]></item>
+      <item><![CDATA[**Files:** `tmpl/default.php`]]></item>
+      <item><![CDATA[### Step 2: Language Files]]></item>
+      <item><![CDATA[**Files:** `languages/*`, `mod_uk_skills.xml`]]></item>
+      <item><![CDATA[### Step 3: Modern Architecture]]></item>
+      <item><![CDATA[**Files:** `services/provider.php`, `src/Dispatcher/Dispatcher.php`, `mod_uk_skills.xml`]]></item>
+      <item><![CDATA[### Step 4: Final Cleanup]]></item>
+      <item><![CDATA[**Files:** `tmpl/default.php`, `mod_uk_skills.php` (deleted)]]></item>
+      <item><![CDATA[## Architecture]]></item>
+      <item><![CDATA[### Service Provider<br />```<br />services/provider.php<br />```<br />Registers the module with Joomla&apos;s dependency injection container using the modern service provider pattern.]]></item>
+      <item><![CDATA[### Custom Dispatcher<br />```<br />src/Dispatcher/Dispatcher.php<br />Namespace: Joomlaplates\Module\UkSkills\Site\Dispatcher<br />```<br />Extends `AbstractModuleDispatcher` and prepares all data for the template in `getLayoutData()`:]]></item>
+      <item><![CDATA[### Template<br />```<br />tmpl/default.php<br />```<br />Receives prepared data from Dispatcher. All output is properly escaped.]]></item>
+      <item><![CDATA[### Custom JavaScript<br />```<br />js/mod_uk_skills.js<br />```<br />ToxProgress library for animated skill circles.]]></item>
+      <item><![CDATA[## Features<br />This module creates animated skill circles with:]]></item>
+      <item><![CDATA[### Circle Parameters (per item):]]></item>
+      <item><![CDATA[## Compatibility Matrix<br />| Environment | Status | Notes |<br />|-------------|--------|-------|<br />| Joomla 4.x | ✅ Works | Modern architecture |<br />| Joomla 5.x (no plugin) | ✅ Works | Fully compatible |<br />| Joomla 5.x (with plugin) | ✅ Works | Plugin not needed |<br />| Joomla 6.x (no plugin) | ✅ Works | Fully compatible |<br />| Joomla 6.x (with plugin) | ✅ Works | Plugin not needed |]]></item>
+      <item><![CDATA[## Security Improvements<br />| Issue | Before | After |<br />|-------|--------|-------|<br />| Content class | ❌ No escaping | ✅ htmlspecialchars() |<br />| Item style | ❌ No escaping | ✅ htmlspecialchars() |<br />| Center class | ❌ No escaping | ✅ htmlspecialchars() |<br />| Circle parameters | ❌ No validation | ✅ (int) casting |<br />| Circle colors | ❌ No escaping | ✅ htmlspecialchars() |<br />| Title output | ❌ No escaping | ✅ htmlspecialchars() |<br />| Content output | ❌ No escaping | ✅ htmlspecialchars() |]]></item>
+      <item><![CDATA[## Testing Performed<br />Each step was tested individually:<br />1. ✅ **Step 1 (Escaping):** Module displayed correctly with security improvements<br />2. ✅ **Step 2 (Languages):** German/English translations working<br />3. ✅ **Step 3 (Architecture):** Modern dispatcher working properly, slider parameters correct<br />4. ✅ **Step 4 (Finalization):** Legacy entry file removed, module still works]]></item>
+      <item><![CDATA[## Benefits]]></item>
+      <item><![CDATA[### For Developers]]></item>
+      <item><![CDATA[### For Users]]></item>
+      <item><![CDATA[### For Site Operators]]></item>
+      <item><![CDATA[## UIkit 3 Integration<br />The module uses UIkit 3 components:]]></item>
+      <item><![CDATA[## Conclusion<br />The module is now **fully compatible** with Joomla 4, 5, and 6, follows best practices, and is ready for production use.]]></item>
+      <item><![CDATA[**Migration completed successfully.**]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_skills</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Joomla 5 and Joomla 6 ready]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_skills</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_skills</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <fix>
+      <item><![CDATA[Delete &quot;hidden&quot; class]]></item>
+      <item><![CDATA[Joomla 5 ready without compatibility PLugin enabled]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_skills</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

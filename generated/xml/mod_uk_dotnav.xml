@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Full Joomla 5/6 Architecture Implementation]]></item>
+      <item><![CDATA[Modern Dispatcher Pattern for J5/6]]></item>
+      <item><![CDATA[Namespaced Dispatcher (Joomlaplates\Module\UkDotnav)]]></item>
+      <item><![CDATA[Automatic detection: Works with AND without Compatibility Plugin]]></item>
+      <item><![CDATA[Dual-mode support: Legacy (J3/4) and Modern (J5/6) side by side]]></item>
+      <item><![CDATA[Joomla 5 and Joomla 6 compatibility (with and without compatibility plugin)]]></item>
+      <item><![CDATA[Based on core mod_articles patterns (ModuleHelper, layout in tmpl/); flat structure for compatibility plugin support]]></item>
+      <item><![CDATA[Namespace updates: use Joomla\CMS\Helper\ModuleHelper]]></item>
+      <item><![CDATA[declare(strict_types=1) and modern PHP in mod_uk_dotnav.php and tmpl/default.php]]></item>
+      <item><![CDATA[Module class suffix applied in layout; field type text (was textarea)]]></item>
+      <item><![CDATA[Manifest: version 2.5, language keys for all admin labels, formsource relative path]]></item>
+      <item><![CDATA[Language files: MOD_UK_DOTNAV_* keys, LICENSE URL https]]></item>
+      <item><![CDATA[Empty index.html in root, forms/, tmpl/, languages/, languages/en-GB/]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Improved code structure and maintainability]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed typo authorUrl (joomaplates -&gt; joomlaplates)]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed unused params/vars from main file (slider/slidenav/velocity etc.)]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Fully backward compatible - no breaking changes]]></item>
+      <item><![CDATA[Simple module - no Helper class needed]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes prefix. All modules have now the &quot;JP&quot; module name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <addition>
+      <item><![CDATA[Add Bootstrap Tooltip]]></item>
+    </addition>
+    <remove>
+      <item><![CDATA[Removed Uikit Tooltip]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <addition>
+      <item><![CDATA[Add Tooltip in Joomla 4]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <fix>
+      <item><![CDATA[Fixed target self and blank]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed Tooltip in Joomla 4]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_dotnav</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release<br />Legend:]]></item>
+      <item><![CDATA[Addition]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Change]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Bug Fix]]></item>
+    </fix>
+    <security>
+      <item><![CDATA[Security Fix]]></item>
+    </security>
+    <remove>
+      <item><![CDATA[Removed]]></item>
+    </remove>
+    <language>
+      <item><![CDATA[Language fix or change]]></item>
+    </language>
+    <note>
+      <item><![CDATA[Note]]></item>
+    </note>
+  </changelog>
+</changelogs>

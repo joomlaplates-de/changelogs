@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.7</version>
+    <addition>
+      <item><![CDATA[Back to Version Recursion prevention for {loadmodule}/{loadposition} is now user-controlled]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[XML field show_featured aligned with core mod_articles (values: show/hide/only, default &quot;show&quot;, validate=&quot;options&quot;, removed filter=&quot;integer&quot;)]]></item>
+      <item><![CDATA[Helper simplified to a single setState(&apos;filter.featured&apos;, ...) call]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed &quot;Show Featured Articles&quot; parameter had no effect]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[After update please re-save each module instance so the new option value is stored correctly]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.6</version>
+    <addition>
+      <item><![CDATA[Added &quot;Exclude articles with {loadmodule}&quot; toggle (default: No)]]></item>
+      <item><![CDATA[Added include/exclude articles feature (modal_article field, like core mod_articles)]]></item>
+      <item><![CDATA[Added &quot;Exclude Current Article&quot; toggle]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Recursion prevention for {loadmodule}/{loadposition} is now user-controlled]]></item>
+      <item><![CDATA[Previously articles with {loadmodule} were always excluded (memory overflow protection)]]></item>
+      <item><![CDATA[Admin can now decide per module instance whether to filter these articles]]></item>
+      <item><![CDATA[Version bump to 2.6]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed deprecated Factory::getUser() replaced with $app-&gt;getIdentity()]]></item>
+      <item><![CDATA[Fixed deprecated Factory::getDbo() replaced with DatabaseInterface DI]]></item>
+    </fix>
+    <language>
+      <item><![CDATA[Added language keys MOD_ARTICLES_FIELD_EXCLUDE_LOADMODULE_LABEL/DESC (en-GB, de-DE)]]></item>
+    </language>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Added README.md (project description, installation, structure)]]></item>
+      <item><![CDATA[Added empty index.html in every folder (directory listing protection)]]></item>
+      <item><![CDATA[Added targetplatform to manifest (Joomla 5.x and 6.x)]]></item>
+      <item><![CDATA[Added installation script (script.php)]]></item>
+      <item><![CDATA[Migrated from mod_articles_news to mod_articles]]></item>
+      <item><![CDATA[Full namespace support (Joomla\Module\ArticleSlider)]]></item>
+      <item><![CDATA[Service Provider implementation]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Version set to 2.5 (manifest, changelog, README)]]></item>
+      <item><![CDATA[Declared compatibility with Joomla 5 and Joomla 6]]></item>
+      <item><![CDATA[getTagsList() now always sets tagsArray per item (empty array when no tags)]]></item>
+      <item><![CDATA[Changed finite, pause_on_hover, center from radio to list]]></item>
+      <item><![CDATA[All buttons now properly styled and functional]]></item>
+      <item><![CDATA[Improved installation script - runs on all install types]]></item>
+      <item><![CDATA[Additional cleanup_article_slider.php tool provided]]></item>
+      <item><![CDATA[Automatically removes old template files on update]]></item>
+      <item><![CDATA[Removes: style1.php, style2.php from tmpl/ folder]]></item>
+      <item><![CDATA[Shows message which files were removed]]></item>
+      <item><![CDATA[Minimum Joomla 4.0 and PHP 7.4 check]]></item>
+      <item><![CDATA[Event results now properly converted to strings]]></item>
+      <item><![CDATA[Handles both array and string returns from plugins]]></item>
+      <item><![CDATA[Try-catch blocks around all event dispatchers]]></item>
+      <item><![CDATA[Debug messages when JDEBUG is enabled]]></item>
+      <item><![CDATA[Uses modern Joomla &quot;Articles&quot; module as base]]></item>
+      <item><![CDATA[Updated all language strings to MOD_ARTICLES_*]]></item>
+      <item><![CDATA[Improved ordering options matching mod_articles]]></item>
+      <item><![CDATA[Better compatibility with Joomla 5/6]]></item>
+      <item><![CDATA[Modern Event Dispatcher API]]></item>
+      <item><![CDATA[MVCFactory for model loading]]></item>
+      <item><![CDATA[PSR-12 compliant code]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed: Articles with no tags - missing entry in tags list caused notices in templates]]></item>
+      <item><![CDATA[Fixed: Grey/disabled Yes/No buttons in backend]]></item>
+      <item><![CDATA[Fixed: Old layout options appearing in backend]]></item>
+      <item><![CDATA[Fixed: Module name not showing (changed &lt;n&gt; to &lt;name&gt; tag)]]></item>
+      <item><![CDATA[Fixed Array-to-String conversion warning in templates]]></item>
+      <item><![CDATA[Added error handling for plugin events]]></item>
+      <item><![CDATA[Prevents module from breaking if content plugins have errors]]></item>
+      <item><![CDATA[Handles incompatible plugins gracefully]]></item>
+      <item><![CDATA[All deprecated code removed]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[If old files still exist, use cleanup tool (see documentation)]]></item>
+      <item><![CDATA[Reminder: ALL template files in tmpl/ folder must be updated]]></item>
+      <item><![CDATA[MAJOR UPDATE: Now based on mod_articles (not deprecated mod_articles_news)]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.4.0</version>
+    <addition>
+      <item><![CDATA[Added namespace support]]></item>
+      <item><![CDATA[Added Service Provider]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Modernized Helper class]]></item>
+      <item><![CDATA[Updated Event Dispatcher]]></item>
+      <item><![CDATA[Language files moved to language/ folder]]></item>
+    </change>
+    <note>
+      <item><![CDATA[MAJOR UPDATE: Full Joomla 5 and 6 compatibility]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.3</version>
+    <fix>
+      <item><![CDATA[Fixed Readmore Button]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.2</version>
+    <addition>
+      <item><![CDATA[Add more sorting functions]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.12</version>
+    <fix>
+      <item><![CDATA[Replaced &quot;&amp;&quot; for &quot;?&quot; for J4 Popup]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.11</version>
+    <fix>
+      <item><![CDATA[Fixed Pause on Hover Option]]></item>
+      <item><![CDATA[Fixed Endless Slides Option]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.10</version>
+    <fix>
+      <item><![CDATA[Fixed read more link]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.9</version>
+    <addition>
+      <item><![CDATA[Add Modalbox Link Option]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.8</version>
+    <fix>
+      <item><![CDATA[Select Option to Fixed HTML Strip Tag]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.7</version>
+    <fix>
+      <item><![CDATA[Fixed HTML Strip Tag]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.6</version>
+    <fix>
+      <item><![CDATA[Fixed Deprecated $classes in PHP 8]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <addition>
+      <item><![CDATA[Add container Offset for shadow style]]></item>
+    </addition>
+    <remove>
+      <item><![CDATA[Removed the Popup]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <addition>
+      <item><![CDATA[Add Language Tag &gt; ALL]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Fixed Bug in Autoplay Interval]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Add Readmore class and Text]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_slider</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

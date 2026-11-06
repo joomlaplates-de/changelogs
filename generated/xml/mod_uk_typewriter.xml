@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>2.6</version>
+    <fix>
+      <item><![CDATA[Fixed JavaScript crash with Lenis/Astroid scroll integrations (`getAttribute is not a function`) by validating DOM elements before accessing attributes]]></item>
+      <item><![CDATA[Reworked typewriter initialization to use `DOMContentLoaded` (no `window.onload` override, fewer script conflicts)]]></item>
+      <item><![CDATA[Typewriter behavior changed to run once and stop after finishing the last configured text (no endless loop)]]></item>
+      <item><![CDATA[Restored support for speed/timing data attributes in script logic (`data-speed`, `data-start`, `data-end`, `data-dltSpeed`, `data-random`)]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Module class suffix applied to wrapper in layout (mod_uk_typewriter + suffix)]]></item>
+      <item><![CDATA[README.md with install, config, override path and structure]]></item>
+      <item><![CDATA[Empty index.html in root, js, tmpl, language, language/en-GB]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Version set to 2.5; creation date 2025-02-03]]></item>
+    </change>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>2.0.2</version>
+    <addition>
+      <item><![CDATA[Event system: dispatch onContentPrepare for &quot;Content Before&quot; (J4/J5/J6; content plugins supported)]]></item>
+      <item><![CDATA[Language: MVC-conform language files (language/en-GB/mod_uk_typewriter.ini, .sys.ini); manifest uses language constants]]></item>
+      <item><![CDATA[Load mod_uk_typewriter language in entry point for Text::_() support]]></item>
+    </addition>
+    <fix>
+      <item><![CDATA[Template overrides: use templates/TEMPLATE/html/mod_uk_typewriter/default.php (ModuleHelper::getLayoutPath)]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[No database schema (module does not use custom tables)]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>2.0.1</version>
+    <addition>
+      <item><![CDATA[Use WebAssetManager for typewriter.js (J5/J6 best practice)]]></item>
+      <item><![CDATA[php_minimum 8.1 in manifest; fixed description typo in XML]]></item>
+    </addition>
+    <fix>
+      <item><![CDATA[Joomla 5 and 6 compatibility: $params fallback when not in scope (with/without compatibility plugin)]]></item>
+      <item><![CDATA[XSS hardening: escaped output for class, data-text, and tag names; safe JSON for typewriter text]]></item>
+    </fix>
+    <security>
+      <item><![CDATA[Whitelist type_font tag names; safe data-text via json_encode]]></item>
+    </security>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>1.0.2</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>1.0.1</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_typewriter</element>
+    <type>module</type>
+    <version>1.0.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

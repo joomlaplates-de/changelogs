@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.7</version>
+    <addition>
+      <item><![CDATA[Back to Version Recursion prevention for {loadmodule}/{loadposition} is now user-controlled]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[XML-Feld show_featured an Core-mod_articles angeglichen (Werte: show/hide/only, default &quot;show&quot;, validate=&quot;options&quot;, filter=&quot;integer&quot; entfernt)]]></item>
+      <item><![CDATA[Helper auf einen einzigen setState(&apos;filter.featured&apos;, ...) Aufruf vereinfacht]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Parameter „Show Featured Articles&quot; hatte keine Wirkung – behoben]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[Nach dem Update bitte jede Modul-Instanz einmal erneut speichern, damit der neue Optionswert korrekt abgelegt wird]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.6</version>
+    <addition>
+      <item><![CDATA[Added &quot;Exclude articles with {loadmodule}&quot; toggle (default: No)]]></item>
+      <item><![CDATA[Added include/exclude articles feature (modal_article field, like core mod_articles)]]></item>
+      <item><![CDATA[Added &quot;Exclude Current Article&quot; toggle]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Recursion prevention for {loadmodule}/{loadposition} is now user-controlled]]></item>
+      <item><![CDATA[Previously articles with {loadmodule} were always excluded (memory overflow protection)]]></item>
+      <item><![CDATA[Admin can now decide per module instance whether to filter these articles]]></item>
+      <item><![CDATA[Version bump to 2.6]]></item>
+    </change>
+    <language>
+      <item><![CDATA[Added language keys MOD_ARTICLES_FIELD_EXCLUDE_LOADMODULE_LABEL/DESC (en-GB)]]></item>
+    </language>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Service Provider (services/provider.php) für Dependency Injection]]></item>
+      <item><![CDATA[Dispatcher-Klasse mit ModuleHelper::moduleCache() Caching (wie natives mod_articles)]]></item>
+      <item><![CDATA[Namespaced Helper (src/Helper/ArticleDgridHelper.php) mit getArticles(Registry, SiteApplication)]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Vollständige Migration auf native Joomla 5/6 mod_articles Architektur]]></item>
+      <item><![CDATA[Event-Dispatching via konkrete Event-Klassen (Content\AfterTitleEvent, etc.) statt $app-&gt;triggerEvent()]]></item>
+      <item><![CDATA[Event-Ergebnisse in $item-&gt;event-&gt;afterDisplayTitle etc. (stdClass, wie natives mod_articles)]]></item>
+      <item><![CDATA[Introtext-Verarbeitung (truncate, strip_tags) im Helper statt in Templates (displayIntrotext)]]></item>
+      <item><![CDATA[Image-Parsing via Registry statt json_decode (robuster)]]></item>
+      <item><![CDATA[Login-Redirect mit Menu-Item-Lookup (wie natives mod_articles)]]></item>
+      <item><![CDATA[ContentComponent::CONDITION_PUBLISHED statt hartkodierter 1]]></item>
+      <item><![CDATA[PluginHelper::importPlugin() vor Event-Dispatching]]></item>
+      <item><![CDATA[Model-Instanziierung via bootComponent()-&gt;getMVCFactory()-&gt;createModel()]]></item>
+      <item><![CDATA[Factory::getUser() ersetzt durch getIdentity()]]></item>
+      <item><![CDATA[Factory::getDbo() ersetzt durch DatabaseAwareTrait DI]]></item>
+    </change>
+    <remove>
+      <item><![CDATA[BaseDatabaseModel::getInstance() entfernt (deprecated/removed in J6)]]></item>
+      <item><![CDATA[BaseDatabaseModel::addIncludePath() entfernt (deprecated/removed in J6)]]></item>
+      <item><![CDATA[Alte helper.php ohne Namespace entfernt]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Kompatibel mit Joomla 5.x und 6.x ohne Compatibility Plugin]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.3</version>
+    <fix>
+      <item><![CDATA[Fixed Readmore Button]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.2</version>
+    <addition>
+      <item><![CDATA[Add sorting options]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.1</version>
+    <addition>
+      <item><![CDATA[Add Article Link to the Image Option]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Add Image Animation]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_article_dgrid</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

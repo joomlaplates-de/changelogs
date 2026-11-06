@@ -1,0 +1,70 @@
+# Changelog — JP Accordion
+
+## [2.5]
+
+### Removed
+
+- Module Class Suffix functionality (fully implemented)
+- Namespace declaration in XML manifest for J5+ compatibility
+- Separated CSS file (media/css/accordion.css) for better code organization
+- HTMLHelper for proper CSS loading
+- Lazy loading for images (performance improvement)
+- FontAwesome fallback CSS for environments without FA loaded
+- Complete language strings for all fields
+- Descriptions for all XML fields
+- Media folder structure in XML manifest
+- Toggle option to show or hide the accordion indicator arrow per module
+- Changed `<n>` to `<n>` in XML manifest (J5+ requirement)
+- Fixed typo: "Image wIdth" → "Image Width"
+- Added XSS protection with htmlspecialchars() for all user outputs
+- Changed content filter from "raw" to "safehtml" (security improvement)
+- Changed link field type from "text" to "url" (validation)
+- Fixed missing $moduleclass_sfx in template output
+- Fixed missing sanitation in mod_uk_accordion.php
+- Added null coalescing operator for safer default values
+- Fixed potential undefined variable warnings
+- All user inputs now properly escaped with htmlspecialchars()
+- Content filter changed from "raw" to "safehtml"
+- Link URLs validated with proper field type
+- Added ENT_QUOTES flag for complete XSS protection
+- Integer casting for numeric parameters (duration, img_width)
+- Moved 59 lines of inline CSS to external file
+- Better code organization and separation of concerns
+- Added loading="lazy" attribute to images
+- Cleaner template code with modern PHP syntax (short array syntax)
+- Added CSS fallback for missing FontAwesome
+- Responsive image handling improved
+- Better code comments and documentation
+- Added 25+ missing language strings
+- All hardcoded labels now use language constants
+- Proper descriptions added for all parameters
+- Backwards compatibility language keys maintained
+- ✅ Joomla 5.x fully compatible
+- ✅ Joomla 6.x ready (namespace-based, modern API)
+- ✅ Works with and without Joomla Compatibility Plugin
+- ✅ Backwards compatible with UIkit 3
+- `<n>` tag (replaced with `<n>`)
+- Inline styles (moved to external CSS)
+- Direct variable output without escaping
+- UIkit 3 Accordion implementation
+- Customizable colors and spacing
+- Image support with lightbox option
+- Multiple/collapsible modes
+- Animation controls
+- Module Class Suffix not implemented
+- Missing language strings
+- XSS vulnerabilities
+- Inline CSS
+- Deprecated XML structure
+
+### Notes
+
+- ### ✅ ADDED
+- ### 🔧 FIXED
+- ### 🔐 SECURITY
+- ### 🎨 IMPROVEMENTS
+- ### 🌍 LANGUAGE FILES
+- ### ⚙️ COMPATIBILITY
+- ### 📋 DEPRECATED
+- ### Features
+- ### Known Issues (Fixed in v2.6)

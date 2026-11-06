@@ -1,0 +1,56 @@
+Changelog - mod_uk_dotnav (JP DotNav)
+====================================
+
+2.5.0 (2025-02-07)
+  + Full Joomla 5/6 Architecture Implementation
+  + Modern Dispatcher Pattern for J5/6
+  + Namespaced Dispatcher (Joomlaplates\Module\UkDotnav)
+  + Automatic detection: Works with AND without Compatibility Plugin
+  + Dual-mode support: Legacy (J3/4) and Modern (J5/6) side by side
+  ^ Improved code structure and maintainability
+  ! Fully backward compatible - no breaking changes
+  ! Simple module - no Helper class needed
+  + Joomla 5 and Joomla 6 compatibility (with and without compatibility plugin)
+  + Based on core mod_articles patterns (ModuleHelper, layout in tmpl/); flat structure for compatibility plugin support
+  + Namespace updates: use Joomla\CMS\Helper\ModuleHelper
+  + declare(strict_types=1) and modern PHP in mod_uk_dotnav.php and tmpl/default.php
+  + Module class suffix applied in layout; field type text (was textarea)
+  + Manifest: version 2.5, language keys for all admin labels, formsource relative path
+  + Language files: MOD_UK_DOTNAV_* keys, LICENSE URL https
+  + Empty index.html in root, forms/, tmpl/, languages/, languages/en-GB/
+  # Fixed typo authorUrl (joomaplates -> joomlaplates)
+  - Removed unused params/vars from main file (slider/slidenav/velocity etc.)
+
+2.0
+  # Changes prefix. All modules have now the "JP" module name
+  # Ready for J5 and J6 without compatibility plugin
+  - Removed the XML version. Not needed anymore for J5 or J6
+
+1.2.5
+  # Changed the xml path for updates
+
+1.2.4
+  + Module Class Suffix
+
+1.2.3
+  - Removed Uikit Tooltip
+  + Add Bootstrap Tooltip
+
+1.2.2
+  + Add Tooltip in Joomla 4
+
+1.2.1
+  - Removed Tooltip in Joomla 4
+  # Fixed target self and blank
+
+1.2.0
+  + Initial Release
+
+Legend:
+  * Security Fix
+  # Bug Fix
+  $ Language fix or change
+  + Addition
+  ^ Change
+  - Removed
+  ! Note

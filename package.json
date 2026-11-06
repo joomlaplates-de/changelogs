@@ -1,0 +1,12 @@
+{
+  "name": "joomlaplates-changelogs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "test": "node --test",
+    "release-version": "node scripts/release-version.mjs"
+  }
+}

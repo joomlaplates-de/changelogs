@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Added services/provider.php for Dependency Injection Container]]></item>
+      <item><![CDATA[Added src/Dispatcher/Dispatcher.php (replaces mod_uk_timeline.php)]]></item>
+      <item><![CDATA[Added namespace Joomlaplates\Module\UkTimeline]]></item>
+      <item><![CDATA[Added README.md]]></item>
+      <item><![CDATA[Added blank index.html to all directories]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Migrated to Joomla 5/6 native module architecture (Namespace, Dispatcher, Service Provider)]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed Module Class Suffix not being applied in template output]]></item>
+      <item><![CDATA[Fixed formsource path (removed leading slash)]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed legacy entry file mod_uk_timeline.php]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[No longer requires System - Backward Compatibility plugin]]></item>
+      <item><![CDATA[Existing module settings are preserved on update]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+      <item><![CDATA[Add css directly instead of load css file]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Add if else for title and subtile]]></item>
+      <item><![CDATA[Add more animations settings]]></item>
+    </addition>
+    <remove>
+      <item><![CDATA[Removed the hr]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>

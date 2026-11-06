@@ -1,0 +1,1104 @@
+{
+  "products": [
+    {
+      "id": "mod_article_dgrid",
+      "zip": "mod_article_dgrid_2_7.zip",
+      "sha256": "1e838291b56afc0150e3c344e9a4c848a4d937ff2c2f0fc8a6ba25f2523c7624",
+      "manifest": "mod_article_dgrid.xml",
+      "source": "changelog.txt",
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_article_dgrid.xml"
+      }
+    },
+    {
+      "id": "mod_article_grid",
+      "zip": "mod_article_grid_2_7.zip",
+      "sha256": "85806eb14bfdb6ae3a4e423eddb10174b9b80cb89c19fac3ab3ce90b6dadb0cc",
+      "manifest": "mod_article_grid.xml",
+      "source": "changelog.txt",
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_article_grid.xml"
+      }
+    },
+    {
+      "id": "mod_article_slider",
+      "zip": "mod_article_slider_2_7.zip",
+      "sha256": "8521b6ff0b600267825f22f62235fbdb6c37b1d7db93f20f5bcd4c3744a082e4",
+      "manifest": "mod_article_slider.xml",
+      "source": "changelog.txt",
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_article_slider.xml"
+      }
+    },
+    {
+      "id": "mod_article_slideshow",
+      "zip": "mod_article_slideshow_2_7.zip",
+      "sha256": "5cd3c8b36d15f61a6089f81068edeaa5cf20b04ebb739eaedebf3e1ac7f50606",
+      "manifest": "mod_article_slideshow.xml",
+      "source": "changelog.txt",
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_article_slideshow.xml"
+      }
+    },
+    {
+      "id": "mod_floating_buttons",
+      "zip": "mod_floating_buttons_2_7.zip",
+      "sha256": "d467b50ed8ee801f978e71bbf247d766338e9f0b81d77cf1d62807603f0dda3a",
+      "manifest": "mod_floating_buttons.xml",
+      "source": null,
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_floating_buttons.xml"
+      }
+    },
+    {
+      "id": "mod_shape_divider",
+      "zip": "mod_shape_divider_2_5.zip",
+      "sha256": "bea50a02c9ae7109a30fb9f5fb22af6f2bdb670d4760249a6c829105a50c8fc5",
+      "manifest": "mod_shape_divider.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_shape_divider.xml"
+      }
+    },
+    {
+      "id": "mod_uk_accordion",
+      "zip": "mod_uk_accordion_2_5.zip",
+      "sha256": "0b976524ac303477ec836a4d1043184e14079bee00e7aed34694fc8f9fa1143d",
+      "manifest": "mod_uk_accordion.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_accordion.xml"
+      }
+    },
+    {
+      "id": "mod_uk_counter",
+      "zip": "mod_uk_counter_2_6.zip",
+      "sha256": "8cbc41d7a89505b59f0e9d2f2571c235f0f788b807ac98ec9d93d61559a32a9f",
+      "manifest": "mod_uk_counter.xml",
+      "source": "changelog.txt",
+      "version": "2.6",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_counter.xml"
+      }
+    },
+    {
+      "id": "mod_uk_dgallery",
+      "zip": "mod_uk_dgallery_2_6.zip",
+      "sha256": "0d606dab0eb5dac3c1b8766c10648dc82685384cba950bad3cfa4ef6775adcbd",
+      "manifest": "mod_uk_dgallery.xml",
+      "source": "changelog.txt",
+      "version": "2.6",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_dgallery.xml"
+      }
+    },
+    {
+      "id": "mod_uk_dotnav",
+      "zip": "mod_uk_dotnav_2_5.zip",
+      "sha256": "2f65aa5255b3682af9be2b41dade825ac2067b81d8b28772d6d63e80261f02bc",
+      "manifest": "mod_uk_dotnav.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_dotnav.xml"
+      }
+    },
+    {
+      "id": "mod_uk_gallery",
+      "zip": "mod_uk_gallery_2_5.zip",
+      "sha256": "ff8cf6c9e11843fb3e5d421398a1f7f57e1b7fdd3c9c3356c39d4f0588667ce3",
+      "manifest": "mod_uk_gallery.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_gallery.xml"
+      }
+    },
+    {
+      "id": "mod_uk_gallery_slideshow",
+      "zip": "mod_uk_gallery_slideshow_2_7.zip",
+      "sha256": "dce4bc233c7c70c9b42cf8db39f4c382d3432c7ee7c1404bd234aeec98e313c2",
+      "manifest": "mod_uk_gallery_slideshow.xml",
+      "source": "changelog.txt",
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_gallery_slideshow.xml"
+      }
+    },
+    {
+      "id": "mod_uk_gallery_text",
+      "zip": "mod_uk_gallery_text_2_5.zip",
+      "sha256": "9d3d6f4361c8336836e6f2d6c82d6097ead43c8fe77bd3cf411fe4fe49a2ac04",
+      "manifest": "mod_uk_gallery_text.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_gallery_text.xml"
+      }
+    },
+    {
+      "id": "mod_uk_grid",
+      "zip": "mod_uk_grid_2_5.zip",
+      "sha256": "00d1931afe0a4cd46a4a476fa6a6148359d86d241fb219f1818bfe456a58db58",
+      "manifest": "mod_uk_grid.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_grid.xml"
+      }
+    },
+    {
+      "id": "mod_uk_grid_portfolio",
+      "zip": "mod_uk_grid_portfolio_2_5.zip",
+      "sha256": "58bbc8d0571ada6a6ab647be1fd4b7ffca4dd9bf2ef92aa4cd20637136cd48b8",
+      "manifest": "mod_uk_grid_portfolio.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_grid_portfolio.xml"
+      }
+    },
+    {
+      "id": "mod_uk_iconnav",
+      "zip": "mod_uk_iconnav_2_5.zip",
+      "sha256": "e7a371c97ac70d0edb3781e866658721e53d845c2475e48105f694c2bc2cdd05",
+      "manifest": "mod_uk_iconnav.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_iconnav.xml"
+      }
+    },
+    {
+      "id": "mod_uk_pricetable",
+      "zip": "mod_uk_pricetable_2_7.zip",
+      "sha256": "a9eae8a100ced909da042e9556bb9a14f8ef6e0b18342570e69e23c47e5cf53e",
+      "manifest": "mod_uk_pricetable.xml",
+      "source": "changelog.txt",
+      "version": "2.7",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_pricetable.xml"
+      }
+    },
+    {
+      "id": "mod_uk_progressbar",
+      "zip": "mod_uk_progressbar_2_5.zip",
+      "sha256": "bc7d1d03817f661a3ebebf7003eeb76e729637d0eb722b5e6e3a6fff1b4634a8",
+      "manifest": "mod_uk_progressbar.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_progressbar.xml"
+      }
+    },
+    {
+      "id": "mod_uk_skills",
+      "zip": "mod_uk_skills_2_5.zip",
+      "sha256": "b461c6c7acc2a8af3091a38791eba5b1b1fffae3e8ad5bcff3b737a834c994fc",
+      "manifest": "mod_uk_skills.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_skills.xml"
+      }
+    },
+    {
+      "id": "mod_uk_slide_portfolio2",
+      "zip": "mod_uk_slide_portfolio2_2_5.zip",
+      "sha256": "ac9372b4db0d9db40fb2375854b3ff3560a6d23787bc663fab2d6d65f3afa051",
+      "manifest": "mod_uk_slide_portfolio2.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_slide_portfolio2.xml"
+      }
+    },
+    {
+      "id": "mod_uk_slide_portfolio",
+      "zip": "mod_uk_slide_portfolio_2_6.zip",
+      "sha256": "050d2958507dc2bffb7b195a4c57ea7b6c2f18a964dd6e2df8d36504b888c9b9",
+      "manifest": "mod_uk_slide_portfolio.xml",
+      "source": "changelog.txt",
+      "version": "2.6",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_slide_portfolio.xml"
+      }
+    },
+    {
+      "id": "mod_uk_slider",
+      "zip": "mod_uk_slider_2_5.zip",
+      "sha256": "b670f88a6b82afe38f8f68a88d827e89280a744121ea84adf4d7e819b34bc3f0",
+      "manifest": "mod_uk_slider.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_slider.xml"
+      }
+    },
+    {
+      "id": "mod_uk_slideshow",
+      "zip": "mod_uk_slideshow_2_5.zip",
+      "sha256": "daa708fd88ae5cb756d98651752a45cc8af8535a7bab854217deacb6c3638e99",
+      "manifest": "mod_uk_slideshow.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_slideshow.xml"
+      }
+    },
+    {
+      "id": "mod_uk_stripes",
+      "zip": "mod_uk_stripes_2_5.zip",
+      "sha256": "47319f092e3fca2bd7fd8108f9b7b114112d989500a9288fcdae43c686d7262e",
+      "manifest": "mod_uk_stripes.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_stripes.xml"
+      }
+    },
+    {
+      "id": "mod_uk_switcher",
+      "zip": "mod_uk_switcher_2_6.zip",
+      "sha256": "028bd70a4fcb726d2927f29f2b4972a9d53a413704cc84699f2f95e88f4f2b6d",
+      "manifest": "mod_uk_switcher.xml",
+      "source": "changelog.txt",
+      "version": "2.6",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_switcher.xml"
+      }
+    },
+    {
+      "id": "mod_uk_timeline",
+      "zip": "mod_uk_timeline_2_5.zip",
+      "sha256": "c353bdedcb8782f7605c0cf0ec0a48697f29bf8e166c83ef286cc16dca8c3482",
+      "manifest": "mod_uk_timeline_2_5/mod_uk_timeline.xml",
+      "source": "mod_uk_timeline_2_5/changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_timeline.xml"
+      }
+    },
+    {
+      "id": "mod_uk_typewriter",
+      "zip": "mod_uk_typewriter_2_6.zip",
+      "sha256": "7ea0e95efa1c4467934b0f88f5bd3210b51af5cd5c43db571fd0b09777a6011b",
+      "manifest": "mod_uk_typewriter.xml",
+      "source": "changelog.txt",
+      "version": "2.6",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_typewriter.xml"
+      }
+    },
+    {
+      "id": "mod_uk_video_slideshow",
+      "zip": "mod_uk_video_slideshow_2_5.zip",
+      "sha256": "1850fa7bcccc1550e5a2fd386ef2ae6ff29cd38027a3e3e7f71f96a48ce9b8fe",
+      "manifest": "mod_uk_video_slideshow.xml",
+      "source": "changelog.txt",
+      "version": "2.5",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/mod_uk_video_slideshow.xml"
+      }
+    },
+    {
+      "id": "plg_system_uikit4",
+      "zip": "plg_uikit_4_0_17.zip",
+      "sha256": "1b9177590bda12c3a44901b587159a20ba28c6ade9bc1ef8861b154ba710b06e",
+      "manifest": "uikit4.xml",
+      "source": "CHANGELOG.md",
+      "version": "4.0.17",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/uikit/plg_uikit4.xml"
+      }
+    },
+    {
+      "id": "tp_adventure",
+      "zip": "tp_adventure.zip",
+      "sha256": "ef6845bb42ff54e2f5975d27145b0a791496caf34c8b6a4416ee04a3f8d1fb22",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_adventure.xml"
+      }
+    },
+    {
+      "id": "tp_advocat",
+      "zip": "tp_advocat.zip",
+      "sha256": "1e0b630b950acb2b479e1ac453f633ff6a0c40003ea97d3a20ffd919fbae1381",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_advocat.xml"
+      }
+    },
+    {
+      "id": "tp_artist",
+      "zip": "tp_artist.zip",
+      "sha256": "2ee38f7cb0b7ee22157bef1a869d457beac2ea6098e99788145263a7aae65c60",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_artist.xml"
+      }
+    },
+    {
+      "id": "tp_artworks",
+      "zip": "tp_artworks.zip",
+      "sha256": "c0e707575a33a9e64ed5d503ea1c7d2e57c62fb34651a5e0fe33593ff827fe8f",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_artworks.xml"
+      }
+    },
+    {
+      "id": "tp_b2b",
+      "zip": "tp_b2b.zip",
+      "sha256": "fbdde81e4f5f982b1d2ccc83427584814f5ab9118bc0a85b73281eaace399c90",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_b2b.xml"
+      }
+    },
+    {
+      "id": "tp_barber",
+      "zip": "tp_barber.zip",
+      "sha256": "f2e762a7f8febd9fa76b5f0683b42d4ec85663399041669ee680871a910e2585",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_barber.xml"
+      }
+    },
+    {
+      "id": "tp_barrierefrei",
+      "zip": "tp_barrierefrei.zip",
+      "sha256": "6eaf4b2dec71705668a900d8f9ce45842ad9eef7175cfc3b19d264f46c2adcdc",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_barrierefrei.xml"
+      }
+    },
+    {
+      "id": "tp_beauty",
+      "zip": "tp_beauty.zip",
+      "sha256": "0acffdff24884b0d0b92696ed1ad3c97a3f9c85db267069055b504768af29c67",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_beauty.xml"
+      }
+    },
+    {
+      "id": "tp_bike",
+      "zip": "tp_bike.zip",
+      "sha256": "94cda97b4255e192c724762fe3d06bd9a96a548c1bf46d73f2b626253e87bc56",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_bike.xml"
+      }
+    },
+    {
+      "id": "tp_biz",
+      "zip": "tp_biz.zip",
+      "sha256": "41947ba96b8fb2149faa31552152aef392850ada6b9fe47f34bd5db42e1fc211",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_biz.xml"
+      }
+    },
+    {
+      "id": "tp_brand",
+      "zip": "tp_brand.zip",
+      "sha256": "579aababc0ea56ed40e70a69e63b2cfb85463bdcacc5cd54f12b6dbfb77004ef",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_brand.xml"
+      }
+    },
+    {
+      "id": "tp_brush",
+      "zip": "tp_brush.zip",
+      "sha256": "26a44ef715b7d4527c3d47c210e89589729c16ba92c0b018228c37d0aee21796",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_brush.xml"
+      }
+    },
+    {
+      "id": "tp_business",
+      "zip": "tp_business.zip",
+      "sha256": "5726d26ae7f5d090c1470413d30862abf483558a881e5d4e3ccb74cc25826bbd",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_business.xml"
+      }
+    },
+    {
+      "id": "tp_classic",
+      "zip": "tp_classic.zip",
+      "sha256": "59af8847f29f8378702049c72b9ae4ae9f47b98998114fa2275b52ca4e7c983f",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_classic.xml"
+      }
+    },
+    {
+      "id": "tp_company",
+      "zip": "tp_company.zip",
+      "sha256": "0a70f341bf9088ed02827411cc8627427a1cfb5b49c41c99bfd38c5dbd50704f",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_company.xml"
+      }
+    },
+    {
+      "id": "tp_construction",
+      "zip": "tp_construction.zip",
+      "sha256": "8ae2b7bc852140f21507ec903b5d8124eb542df9fd89c9e398d1b16652d7a3a9",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_construction.xml"
+      }
+    },
+    {
+      "id": "tp_custom",
+      "zip": "tp_custom.zip",
+      "sha256": "0205ae30dbcf5ae3fb741086644a44977907b90e17ac516567881076a5ba1a62",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_custom.xml"
+      }
+    },
+    {
+      "id": "tp_dentist",
+      "zip": "tp_dentist.zip",
+      "sha256": "b03432e5f0c01248c2daabe2a90065601ae2974053ef0eecf0c083099ce3bd6e",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_dentist.xml"
+      }
+    },
+    {
+      "id": "tp_easy",
+      "zip": "tp_easy.zip",
+      "sha256": "d937c2601339c1fca3833160d2787dc333e7d2af34532d9720b669da7deb3292",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_easy.xml"
+      }
+    },
+    {
+      "id": "tp_exchange",
+      "zip": "tp_exchange.zip",
+      "sha256": "8aefc9cc4bed4c34ed20ec9da7c1555db4fe4e374684154f366f4859aa0ebfa6",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_exchange.xml"
+      }
+    },
+    {
+      "id": "tp_expert",
+      "zip": "tp_expert.zip",
+      "sha256": "fc8b2293197dc9458a68c0a8d0ded1c3df753d435b749b4df1342475c7752cf8",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_expert.xml"
+      }
+    },
+    {
+      "id": "tp_fago",
+      "zip": "tp_fago.zip",
+      "sha256": "c555d57d9a8874bf9862c62224d58594b86e80b9cf5c3f3233f0d51b6c45503c",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_fago.xml"
+      }
+    },
+    {
+      "id": "tp_fashion",
+      "zip": "tp_fashion.zip",
+      "sha256": "1090af8849f1c42d19651a8909093949875bf6b82a90c6ad7b8effc729fd4e06",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_fashion.xml"
+      }
+    },
+    {
+      "id": "tp_fire",
+      "zip": "tp_fire.zip",
+      "sha256": "9b2193aa39e3ea7b346db8c35a414d8799383e1d6115ab4409c132b55509a0f2",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_fire.xml"
+      }
+    },
+    {
+      "id": "tp_golf",
+      "zip": "tp_golf.zip",
+      "sha256": "10d3659432a8977bc53333a4e7225e27b7e26916063eca23ba86d5f3ba72d93e",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_golf.xml"
+      }
+    },
+    {
+      "id": "tp_gusto",
+      "zip": "tp_gusto.zip",
+      "sha256": "3abc39843d3733ea0f15c8c6551480fad6248c05bd9cd2abee4fb8344a5ad932",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_gusto.xml"
+      }
+    },
+    {
+      "id": "tp_gym",
+      "zip": "tp_gym.zip",
+      "sha256": "6536cc8115b6163dfc74554b38a2d18ba99684f27bf74e1a831af9f6ea210e22",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_gym.xml"
+      }
+    },
+    {
+      "id": "tp_handwerk",
+      "zip": "tp_handwerk.zip",
+      "sha256": "b98537fd5680430b029b621de6290ab478e96503199c2fc9e74f80e16db7be50",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_handwerk.xml"
+      }
+    },
+    {
+      "id": "tp_hifi",
+      "zip": "tp_hifi.zip",
+      "sha256": "a496219c21e24a4d9b53019da7afa5ad3eceb1dc86dc694cd246f58b8f19d933",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_hifi.xml"
+      }
+    },
+    {
+      "id": "tp_hope",
+      "zip": "tp_hope.zip",
+      "sha256": "c3cc373c80943e3b6f137209c84f5829889328bddba3fa5be938ac7ceb191320",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_hope.xml"
+      }
+    },
+    {
+      "id": "tp_hotel",
+      "zip": "tp_hotel.zip",
+      "sha256": "29a9abdf634b0e72000f1c484b9c6bab769522420b66320160e778bd426593c5",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_hotel.xml"
+      }
+    },
+    {
+      "id": "tp_ice",
+      "zip": "tp_ice.zip",
+      "sha256": "16a7e1c15904d2a3476751c00cbe5347496bf5322e38a8cb6f99e139f9f7ee63",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_ice.xml"
+      }
+    },
+    {
+      "id": "tp_industry",
+      "zip": "tp_industry.zip",
+      "sha256": "805e9bd94efff8cd4189dd568d327a8468de4a693257e01cdca4c4cfcb10de01",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_industry.xml"
+      }
+    },
+    {
+      "id": "tp_interior",
+      "zip": "tp_interior.zip",
+      "sha256": "545a27d1aaaf6391acd8ff38191f68252c37b0db10073536ee30ba044a55b952",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_interior.xml"
+      }
+    },
+    {
+      "id": "tp_landing",
+      "zip": "tp_landing.zip",
+      "sha256": "515d242f8926f943845a95cddaf82f9b5312d34327acb80493425d417bb38e76",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_landing.xml"
+      }
+    },
+    {
+      "id": "tp_lawyer",
+      "zip": "tp_lawyer.zip",
+      "sha256": "9ac63aa9718837d11308065febdde94ff2912df93bfd9111548c1162989fe773",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_lawyer.xml"
+      }
+    },
+    {
+      "id": "tp_life",
+      "zip": "tp_life.zip",
+      "sha256": "389cb12f1def3588bf273d1ac9bce79c089c248f7b1d1d007ff746f924f866c6",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_life.xml"
+      }
+    },
+    {
+      "id": "tp_master",
+      "zip": "tp_master.zip",
+      "sha256": "fed35889e576a0b2a741019c17fa333f1a976bf82d7e9ed3ce30aba3e4958e12",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_master.xml"
+      }
+    },
+    {
+      "id": "tp_me",
+      "zip": "tp_me.zip",
+      "sha256": "ba00879bf5225bf61684f73b865a1d2c2c49b8db570cc45c22774aa747b8af51",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_me.xml"
+      }
+    },
+    {
+      "id": "tp_medical",
+      "zip": "tp_medical.zip",
+      "sha256": "f6b7b754c321bd01a5f5e356afd211a7e4a1cdefa8774812424fa7482fb34192",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_medical.xml"
+      }
+    },
+    {
+      "id": "tp_modern",
+      "zip": "tp_modern.zip",
+      "sha256": "c60c7b992220ee0e4e82a3778a57f33643c3ca4f3299b1879b04238a9667c775",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_modern.xml"
+      }
+    },
+    {
+      "id": "tp_musician",
+      "zip": "tp_musician.zip",
+      "sha256": "1272728a45efc1f65fabc39085caf0d63ff5d803f9ab19b5fe925309326190e6",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_musician.xml"
+      }
+    },
+    {
+      "id": "tp_onepage",
+      "zip": "tp_onepage.zip",
+      "sha256": "e9e68b2466c52feb368e22b719b00805d310016dd4826efbf2d3f82085db598c",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_onepage.xml"
+      }
+    },
+    {
+      "id": "tp_outfit",
+      "zip": "tp_outfit.zip",
+      "sha256": "3734bbd6bbfa061989365c7b6c40003398a275bbdf76005f8942b064371dacb5",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_outfit.xml"
+      }
+    },
+    {
+      "id": "tp_pasta",
+      "zip": "tp_pasta.zip",
+      "sha256": "54dce114ce0af5eab76f5683a20988e128056914705b9a54587536545c54b71c",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_pasta.xml"
+      }
+    },
+    {
+      "id": "tp_perfect",
+      "zip": "tp_perfect.zip",
+      "sha256": "6ef64ae097fb666b6ce0381cf1f0017b160c69eaec4d64dccf025bef5e962180",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_perfect.xml"
+      }
+    },
+    {
+      "id": "tp_photo",
+      "zip": "tp_photo.zip",
+      "sha256": "23aa3d00f39ee3e0c76f4f2685ce14bfd58960b62aa3c611483acf142acb386c",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_photo.xml"
+      }
+    },
+    {
+      "id": "tp_portfolio",
+      "zip": "tp_portfolio.zip",
+      "sha256": "8ee69f8e0c82ba718a5c7cbcc85b0730abaa489741bcf21b7a9ca021f02e0b76",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_portfolio.xml"
+      }
+    },
+    {
+      "id": "tp_power",
+      "zip": "tp_power.zip",
+      "sha256": "ccca61d9a1f0e0084706338631df1065238352f42343effe40f04cb6835add42",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_power.xml"
+      }
+    },
+    {
+      "id": "tp_private",
+      "zip": "tp_private.zip",
+      "sha256": "36687378c80a6769112073bb31ce63c83e26d8139e56d48fc2b92de1c46e9ba1",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_private.xml"
+      }
+    },
+    {
+      "id": "tp_schule",
+      "zip": "tp_schule.zip",
+      "sha256": "93e3037c9d9e2c49cb4342bee1fccaf32801e140d3b008b1d0d2bc38e9ce155c",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_schule.xml"
+      }
+    },
+    {
+      "id": "tp_shop",
+      "zip": "tp_shop.zip",
+      "sha256": "4dbf57a22de8343cda6f3ab030d02b6d60fb0f0313cc84416be7201e8d7db146",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_shop.xml"
+      }
+    },
+    {
+      "id": "tp_simple",
+      "zip": "tp_simple.zip",
+      "sha256": "fb4c003c7b805764b17a8c59bfdd986a82b431553c738a401c60708aaa063fab",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_simple.xml"
+      }
+    },
+    {
+      "id": "tp_snowflake",
+      "zip": "tp_snowflake.zip",
+      "sha256": "e393b9441f70c0e4e909de9beab170d1453bf9b343cde77c681376bab1f36d62",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_snowflake.xml"
+      }
+    },
+    {
+      "id": "tp_solution",
+      "zip": "tp_solution.zip",
+      "sha256": "c4ff8b67fe3e41f180bc3549c3528b14dde48e70f42c3cb56f66ed34f200cc84",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_solution.xml"
+      }
+    },
+    {
+      "id": "tp_sounds",
+      "zip": "tp_sounds.zip",
+      "sha256": "cdd57615c7254ec4b547d193089b5401135147c88efaa66860c34f04e925e0fc",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_sounds.xml"
+      }
+    },
+    {
+      "id": "tp_sport",
+      "zip": "tp_sport.zip",
+      "sha256": "031fe583c1936d81074f4315d005b254cf958a573bd2419cf26a71970d282716",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_sport.xml"
+      }
+    },
+    {
+      "id": "tp_surfing",
+      "zip": "tp_surfing.zip",
+      "sha256": "c612f529e5f122ed1f639d470027eeb046e5a47c7dc94c97dabe59e7b5371a6e",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_surfing.xml"
+      }
+    },
+    {
+      "id": "tp_technology",
+      "zip": "tp_technology.zip",
+      "sha256": "3699b47f5fb7be8637ad260889696a6c2c8b24b8226f7bc27ea0e3d69fb3e1aa",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_technology.xml"
+      }
+    },
+    {
+      "id": "tp_time",
+      "zip": "tp_time.zip",
+      "sha256": "e1ccf7e780e35315980fac504c67e8e10c43c6f48014bf7e8d1d5d6c2630ce72",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_time.xml"
+      }
+    },
+    {
+      "id": "tp_top",
+      "zip": "tp_top.zip",
+      "sha256": "aaa944a58a49ad0ad7e94570d78c559cbb3eed7f9e0df77aeaf8821e4de18beb",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_top.xml"
+      }
+    },
+    {
+      "id": "tp_travel",
+      "zip": "tp_travel.zip",
+      "sha256": "984f988ba2d9172b8f65e5d591caeda53169646c824ccd0be02744b2f184a502",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_travel.xml"
+      }
+    },
+    {
+      "id": "tp_ultimate",
+      "zip": "tp_ultimate.zip",
+      "sha256": "d5b9b9511a690c738b09f980ea9e2476fa6670e7f33fe27e890f26b864b7f2e4",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_ultimate.xml"
+      }
+    },
+    {
+      "id": "tp_verein",
+      "zip": "tp_verein.zip",
+      "sha256": "11f60e9ecb2a1a37471d29b43814cec05c5e30dfe6ee4a79837064db97aca248",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_verein.xml"
+      }
+    },
+    {
+      "id": "tp_versity",
+      "zip": "tp_versity.zip",
+      "sha256": "7c682673c1ae23c3ecd62e7352eaa6e9631f69f72ce8df4e09fec9c6b188422d",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_versity.xml"
+      }
+    },
+    {
+      "id": "tp_wedding",
+      "zip": "tp_wedding.zip",
+      "sha256": "f5e645ab834dde7e77dd8cd43c4c09f3f6a152fda91afadd6100a731ceb0788e",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_wedding.xml"
+      }
+    },
+    {
+      "id": "tp_work",
+      "zip": "tp_work.zip",
+      "sha256": "dbcc6feea20bb7cc369607f88582ae9f2e9d4848660a9b85fef4ac6ca16cbbba",
+      "manifest": "templateDetails.xml",
+      "source": "changelog.txt",
+      "version": "2.8",
+      "updateUrls": {
+        "server": "https://www.joomlaplates.org/updates/templates/tp_work.xml"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "product": "mod_floating_buttons",
+      "version": "2.7",
+      "reason": "No changelog file in supplied package"
+    },
+    {
+      "product": "mod_uk_gallery_slideshow",
+      "version": "2.7",
+      "reason": "Current version is absent from the packaged history"
+    },
+    {
+      "product": "mod_uk_slide_portfolio",
+      "version": "2.6",
+      "reason": "Current version is absent from the packaged history"
+    },
+    {
+      "product": "mod_uk_switcher",
+      "version": "2.6",
+      "reason": "Current version is absent from the packaged history"
+    },
+    {
+      "product": "plg_system_uikit4",
+      "version": "4.0.17",
+      "reason": "Plugin-specific 4.0.17 notes absent; bundled library notes retained and labeled separately"
+    }
+  ],
+  "versionMappings": [
+    {
+      "product": "mod_uk_counter",
+      "source": "2.6.0",
+      "manifest": "2.6",
+      "reason": "Explicit trailing-zero alias from the packaged changelog to its manifest version"
+    },
+    {
+      "product": "mod_uk_dotnav",
+      "source": "2.5.0",
+      "manifest": "2.5",
+      "reason": "Explicit trailing-zero alias from the packaged changelog to its manifest version"
+    }
+  ],
+  "warnings": [
+    "mod_uk_gallery_text: merged repeated version 1.2.5"
+  ]
+}

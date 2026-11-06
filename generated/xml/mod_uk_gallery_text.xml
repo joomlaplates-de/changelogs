@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>2.5</version>
+    <addition>
+      <item><![CDATA[Full Joomla 5/6 Architecture Implementation]]></item>
+      <item><![CDATA[Modern Dispatcher Pattern for J5/6]]></item>
+      <item><![CDATA[Namespaced Helper Classes (Joomlaplates\Module\UkGalleryText)]]></item>
+      <item><![CDATA[Automatic detection: Works with AND without Compatibility Plugin]]></item>
+      <item><![CDATA[Dual-mode support: Legacy (J3/4) and Modern (J5/6) side by side]]></item>
+      <item><![CDATA[Joomla 6 API compatibility (Language classes)]]></item>
+      <item><![CDATA[Type-hints and modern PHP standards (already had strict_types)]]></item>
+      <item><![CDATA[Added overlay style parameter with two options:]]></item>
+      <item><![CDATA[Empty index.html in every folder]]></item>
+      <item><![CDATA[README.md]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Improved code structure and maintainability]]></item>
+      <item><![CDATA[Joomla 5 and 6 compatibility (flat structure, works with and without compatibility plugin)]]></item>
+      <item><![CDATA[Namespace updates: Joomla\CMS\Helper\ModuleHelper, Joomla\CMS\Language\Text, Joomla\CMS\Utilities\ArrayHelper]]></item>
+      <item><![CDATA[Manifest: version 2.5, requires Joomla 5.0.0, UTF-8 encoding, module name from language key]]></item>
+      <item><![CDATA[Module class suffix applied to wrapper only (not to title)]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Fixed &quot;Undefined array key&quot; error - ensures all item keys exist in tagsList]]></item>
+      <item><![CDATA[Bug fix: grid_params first_column_class was assigned to wrong variable]]></item>
+      <item><![CDATA[Template: escaped output, fixed tag display (removed erroneous &apos;UTF-8&apos;)]]></item>
+      <item><![CDATA[Helper: Joomla\CMS\Utilities\ArrayHelper, type hints, array_unique via PHP]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Dark Overlay with White Plus Icon (uk-overlay-primary)]]></item>
+      <item><![CDATA[Light Overlay with Dark Plus Icon (uk-overlay-default)]]></item>
+    </remove>
+    <note>
+      <item><![CDATA[Fully backward compatible - no breaking changes]]></item>
+    </note>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>2.1</version>
+    <addition>
+      <item><![CDATA[Add Shadow Option]]></item>
+    </addition>
+    <fix>
+      <item><![CDATA[Fixed an open DIV]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>2.0</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>1.2.5</version>
+    <fix>
+      <item><![CDATA[Changes Prefix. All modules have now the &quot;JP&quot;-Module Name]]></item>
+      <item><![CDATA[Ready for J5 and J6 without compatibility Plugin]]></item>
+      <item><![CDATA[Changed the xml path for updates]]></item>
+    </fix>
+    <remove>
+      <item><![CDATA[Removed the XML version. Not needed anymore for J5 or J6]]></item>
+    </remove>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>1.2.4</version>
+    <addition>
+      <item><![CDATA[Module Class Suffix]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>1.2.3</version>
+    <fix>
+      <item><![CDATA[Back to 1.2.1 settings. Title will show the overlay]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>1.2.2</version>
+    <fix>
+      <item><![CDATA[Add the content to popup view]]></item>
+    </fix>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>1.2.1</version>
+    <addition>
+      <item><![CDATA[Fixed Mansonry Options]]></item>
+    </addition>
+  </changelog>
+  <changelog>
+    <element>mod_uk_gallery_text</element>
+    <type>module</type>
+    <version>1.2.0</version>
+    <addition>
+      <item><![CDATA[Initial Release]]></item>
+    </addition>
+  </changelog>
+</changelogs>
