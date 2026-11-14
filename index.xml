@@ -39,7 +39,7 @@
   <view id="mod_uk_gallery_text" name="JP Gallery Text" type="module" version="2.5" file="UIKit Module/mod_uk_gallery_text.xml">
     <product id="mod_uk_gallery_text"/>
   </view>
-  <view id="mod_uk_grid" name="JP Grid" type="module" version="2.5" file="UIKit Module/mod_uk_grid.xml">
+  <view id="mod_uk_grid" name="JP Grid" type="module" version="2.6" file="UIKit Module/mod_uk_grid.xml">
     <product id="mod_uk_grid"/>
   </view>
   <view id="mod_uk_grid_portfolio" name="JP Grid Portfolio" type="module" version="2.5" file="UIKit Module/mod_uk_grid_portfolio.xml">

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="mod_uk_grid" name="JP Grid" currentVersion="2.5" viewId="mod_uk_grid" viewName="JP Grid">
+<changelogs id="mod_uk_grid" name="JP Grid" currentVersion="2.6" viewId="mod_uk_grid" viewName="JP Grid">
+  <changelog date="2026-11-14">
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>2.6</version>
+    <change>
+      <item><![CDATA[Updated the card hover animation in the default, dark overlay and white overlay layouts.]]></item>
+      <item><![CDATA[Scoped the card hover and overflow rules to JP Simple Grid so they do not affect other UIkit cards.]]></item>
+    </change>
+  </changelog>
   <changelog date="2025-02-07">
     <element>mod_uk_grid</element>
     <type>module</type>
