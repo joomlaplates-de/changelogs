@@ -69,7 +69,7 @@
   <view id="mod_uk_slideshow" name="JP Slideshow" type="module" version="2.5" file="UIKit Module/mod_uk_slideshow.xml">
     <product id="mod_uk_slideshow"/>
   </view>
-  <view id="mod_uk_stripes" name="JP Stripes" type="module" version="2.5" file="UIKit Module/mod_uk_stripes.xml">
+  <view id="mod_uk_stripes" name="JP Stripes" type="module" version="2.6" file="UIKit Module/mod_uk_stripes.xml">
     <product id="mod_uk_stripes"/>
   </view>
   <view id="mod_uk_switcher" name="JP Switcher" type="module" version="2.6" file="UIKit Module/mod_uk_switcher.xml">

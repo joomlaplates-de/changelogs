@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="mod_uk_stripes" name="JP Stripes" currentVersion="2.5" viewId="mod_uk_stripes" viewName="JP Stripes">
+<changelogs id="mod_uk_stripes" name="JP Stripes" currentVersion="2.6" viewId="mod_uk_stripes" viewName="JP Stripes">
+  <changelog date="2026-11-20">
+    <element>mod_uk_stripes</element>
+    <type>module</type>
+    <version>2.6</version>
+    <fix>
+      <item><![CDATA[Fixed an undefined property warning when displaying a slide link without an al_content value. Existing alignment classes are preserved.]]></item>
+    </fix>
+  </changelog>
   <changelog>
     <element>mod_uk_stripes</element>
     <type>module</type>
