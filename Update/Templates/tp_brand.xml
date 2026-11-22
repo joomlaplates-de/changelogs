@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Brand Joomla Template</name>
+    <version>2.8</version>
+    <infourl title="Brand Joomla Template">https://www.joomlaplates.de/forum/news-updates-und-informationen/30-template-versionen-changelog.html</infourl>
+    <description>Update muss manuell eingespielt werden</description>
+    <downloads>
+      <downloadurl type="full" format="zip">https://www.joomlaplates.de/zip/</downloadurl>
+    </downloads>
+    <element>tp_brand</element>
+    <type>template</type>
+    <client>0</client>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Joomlaplates</maintainer>
+    <maintainerurl>https://www.joomlaplates.de</maintainerurl>
+    <targetplatform name="joomla" version="(4.)|(5.)|(6.)"/>
+    <changelogurl>https://raw.githubusercontent.com/joomlaplates-de/changelogs/main/Templates/tp_brand.xml</changelogurl>
+  </update>
+</updates>

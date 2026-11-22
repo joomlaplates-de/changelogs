@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>JP Gallery Slideshow</name>
+    <element>mod_uk_gallery_slideshow</element>
+    <type>module</type>
+    <version>2.7</version>
+    <infourl title="JP Youtube Slideshow">https://www.joomlaplates.de</infourl>
+    <downloads>
+      <downloadurl type="full" format="zip">https://www.joomlaplates.de/zip/</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Joomlaplates</maintainer>
+    <maintainerurl>https://www.joomlaplates.de/uikit3-extensions.html</maintainerurl>
+    <targetplatform name="joomla" version="(4.)|(5.)|(6.)"/>
+    <client>0</client>
+    <changelogurl>https://raw.githubusercontent.com/joomlaplates-de/changelogs/main/UIKit%20Module/mod_uk_gallery_slideshow.xml</changelogurl>
+  </update>
+</updates>

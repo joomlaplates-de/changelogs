@@ -40,3 +40,18 @@ Die installierbaren Produkt-ZIPs erhalten Sie über den Joomlaplates-Kundenberei
 - Neue Funktionen, Änderungen, Fehlerbehebungen und Hinweise stehen in getrennten XML-Kategorien. Ein Eintrag unter `security` bezeichnet eine dokumentierte Sicherheitskorrektur.
 
 **Joomlaplates:** [www.joomlaplates.de](https://www.joomlaplates.de/)
+
+## Joomla-Update-Feeds
+
+Unter [Update/](Update/) liegen die Joomla-Update-Feeds, getrennt von den
+Changelog-Dateien:
+
+- [Templates](Update/Templates/)
+- [UIKit Module](Update/UIKit%20Module/)
+- [UIKit Plugin](Update/UIKit%20Plugin/)
+
+Die Produktmanifeste verwenden die direkten Raw-Adressen dieser XML-Dateien.
+Die Feeds enthalten Versionsinformationen und Links zur jeweiligen Historie.
+Kostenpflichtige Pakete werden weiterhin im Kundenkonto heruntergeladen und
+manuell installiert. Die Downloadadresse `/zip/` führt bewusst zur entsprechenden
+Hinweisseite. Produkt-ZIPs sind nicht Teil dieses öffentlichen Repositorys.
