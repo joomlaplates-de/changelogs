@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="mod_uk_grid" name="JP Grid" currentVersion="2.6" viewId="mod_uk_grid" viewName="JP Grid">
+<changelogs id="mod_uk_grid" name="JP Grid" currentVersion="2.7" viewId="mod_uk_grid" viewName="JP Grid">
+  <changelog date="2026-11-22">
+    <element>mod_uk_grid</element>
+    <type>module</type>
+    <version>2.7</version>
+    <addition>
+      <item><![CDATA[Added an independent destination URL for each image, separate from the existing item link/button.]]></item>
+      <item><![CDATA[Added an option to open the image link in the same or a new browser tab.]]></item>
+      <item><![CDATA[Added an optional mouseover tooltip text for linked images.]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[Preserved the existing Lightbox Image behavior when the custom image-link option is not selected.]]></item>
+      <item><![CDATA[Restricted independent image links to the default layout; overlay-dark and overlay-white retain their existing Read More links only.]]></item>
+    </change>
+    <fix>
+      <item><![CDATA[Rejected executable URL schemes, escaped plain text and HTML attributes, restricted link targets and protected new browser tabs.]]></item>
+      <item><![CDATA[Made tag filter selectors safe for punctuation and normalized array/object subform items.]]></item>
+      <item><![CDATA[Fixed fallback loading to use the shipped helper instead of a missing legacy file.]]></item>
+    </fix>
+  </changelog>
   <changelog date="2026-11-14">
     <element>mod_uk_grid</element>
     <type>module</type>
