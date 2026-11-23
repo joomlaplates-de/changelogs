@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="tp_ideas" name="Ideas" currentVersion="2.6" viewId="templates_tp_ideas" viewName="Ideas">
+  <changelog>
+    <element>tp_ideas</element>
+    <type>template</type>
+    <version>2.6</version>
+    <new><item>Initial release of the Ideas template.</item></new>
+  </changelog>
+</changelogs>
