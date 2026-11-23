@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="tp_ideas" name="Ideas" currentVersion="2.6" viewId="templates_tp_ideas" viewName="Ideas">
+<changelogs id="tp_ideas" name="Ideas" currentVersion="2.8" viewId="templates_tp_ideas" viewName="Ideas">
+  <changelog date="2026-11-23">
+    <element>tp_ideas</element>
+    <type>template</type>
+    <version>2.8</version>
+    <note><item>Corrected the release version to 2.8 to match the current template series. No functional changes.</item></note>
+  </changelog>
   <changelog>
     <element>tp_ideas</element>
     <type>template</type>
