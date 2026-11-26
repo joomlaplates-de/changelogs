@@ -75,7 +75,7 @@
   <view id="mod_uk_switcher" name="JP Switcher" type="module" version="2.6" file="UIKit Module/mod_uk_switcher.xml">
     <product id="mod_uk_switcher"/>
   </view>
-  <view id="mod_uk_timeline" name="JP Timeline" type="module" version="2.5" file="UIKit Module/mod_uk_timeline.xml">
+  <view id="mod_uk_timeline" name="JP Timeline" type="module" version="2.6" file="UIKit Module/mod_uk_timeline.xml">
     <product id="mod_uk_timeline"/>
   </view>
   <view id="mod_uk_typewriter" name="JP Typewriter" type="module" version="2.6" file="UIKit Module/mod_uk_typewriter.xml">

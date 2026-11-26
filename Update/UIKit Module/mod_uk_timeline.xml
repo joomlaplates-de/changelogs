@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<updates>
+<?xml version="1.0" encoding="utf-8"?><updates>
   <update>
     <name>JP Timeline</name>
     <element>mod_uk_timeline</element>
     <type>module</type>
-    <version>2.5</version>
+    <version>2.6</version>
     <infourl title="JP Timeline">https://www.joomlaplates.de</infourl>
     <downloads>
       <downloadurl type="full" format="zip">https://www.joomlaplates.de/zip/</downloadurl>

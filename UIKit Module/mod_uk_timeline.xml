@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="mod_uk_timeline" name="JP Timeline" currentVersion="2.5" viewId="mod_uk_timeline" viewName="JP Timeline">
+<changelogs id="mod_uk_timeline" name="JP Timeline" currentVersion="2.6" viewId="mod_uk_timeline" viewName="JP Timeline">
+  <changelog date="2026-11-26">
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>2.6</version>
+    <fix>
+      <item><![CDATA[DE: Timeline-CSS-Klassen eindeutig gekennzeichnet, um Konflikte mit Template- und Framework-Styles sowie unerwünschte Hintergrundflächen zu vermeiden.]]></item>
+      <item><![CDATA[EN: Namespaced timeline CSS classes to prevent conflicts with template and framework styles, including unwanted background areas.]]></item>
+      <item><![CDATA[DE: Einstellbare Farben validiert sowie die Ausgabe von Überschriften- und Animationsparametern abgesichert.]]></item>
+      <item><![CDATA[EN: Validated configurable colors and hardened heading and animation parameter output.]]></item>
+      <item><![CDATA[DE: Nicht definierte Textfarbenausgabe entfernt und einheitliche Innenabstände der Inhaltsboxen sichergestellt.]]></item>
+      <item><![CDATA[EN: Removed undefined text-color output and ensured consistent content-box padding.]]></item>
+    </fix>
+    <change>
+      <item><![CDATA[DE: Update-Quelle auf den direkten GitHub-Feed umgestellt.]]></item>
+      <item><![CDATA[EN: Switched the update source to the direct GitHub feed.]]></item>
+    </change>
+  </changelog>
   <changelog date="2025-02-01">
     <element>mod_uk_timeline</element>
     <type>module</type>
