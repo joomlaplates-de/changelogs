@@ -75,7 +75,7 @@
   <view id="mod_uk_switcher" name="JP Switcher" type="module" version="2.6" file="UIKit Module/mod_uk_switcher.xml">
     <product id="mod_uk_switcher"/>
   </view>
-  <view id="mod_uk_timeline" name="JP Timeline" type="module" version="2.6" file="UIKit Module/mod_uk_timeline.xml">
+  <view id="mod_uk_timeline" name="JP Timeline" type="module" version="2.7" file="UIKit Module/mod_uk_timeline.xml">
     <product id="mod_uk_timeline"/>
   </view>
   <view id="mod_uk_typewriter" name="JP Typewriter" type="module" version="2.6" file="UIKit Module/mod_uk_typewriter.xml">
@@ -162,5 +162,8 @@
   </view>
   <view id="templates_tp_ideas" name="Ideas" type="template" version="2.8" file="Templates/tp_ideas.xml">
     <product id="tp_ideas"/>
+  </view>
+  <view id="templates_tp_drive" name="Drive" type="template" version="2.8" file="Templates/tp_drive.xml">
+    <product id="tp_drive"/>
   </view>
 </changelogIndex>

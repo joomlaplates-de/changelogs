@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs id="tp_drive" name="Drive" currentVersion="2.8" viewId="templates_tp_drive" viewName="Drive">
+  <changelog date="2026-11-27">
+    <element>tp_drive</element>
+    <type>template</type>
+    <version>2.8</version>
+    <addition>
+      <item><![CDATA[Drive design for the KURVE driving school with native Astroid layout, local fonts and UIkit modules.]]></item>
+      <item><![CDATA[Hero slideshow, driving licence portfolio modal boxes, and Impressum and Datenschutz modal boxes with placeholder text.]]></item>
+      <item><![CDATA[Subtle benefit-card wobble and process-card background fades, with contrasting hover text colours and reduced-motion support.]]></item>
+    </addition>
+    <fix>
+      <item><![CDATA[Category publication, access level and language are now checked before article content is shown in footer modals.]]></item>
+      <item><![CDATA[Cleared a malformed unused sticky-header module position in the Astroid defaults.]]></item>
+    </fix>
+    <note>
+      <item><![CDATA[Template metadata follows the Brand template format. This package includes its release snapshot as changelog.xml.]]></item>
+    </note>
+  </changelog>
+</changelogs>

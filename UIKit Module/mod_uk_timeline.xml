@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs id="mod_uk_timeline" name="JP Timeline" currentVersion="2.6" viewId="mod_uk_timeline" viewName="JP Timeline">
+<changelogs id="mod_uk_timeline" name="JP Timeline" currentVersion="2.7" viewId="mod_uk_timeline" viewName="JP Timeline">
+  <changelog date="2026-11-27">
+    <element>mod_uk_timeline</element>
+    <type>module</type>
+    <version>2.7</version>
+    <addition>
+      <item><![CDATA[DE: Einstellbare Schriftgröße der Datums-/Zeitangabe (8–48 px); Pfeilbreite und Pfeilgeometrie passen sich proportional an.]]></item>
+      <item><![CDATA[EN: Added configurable date/time label font size (8–48 px); pointer width and geometry scale proportionally.]]></item>
+      <item><![CDATA[DE: Überschriftenauswahl um H6 erweitert; alle Timeline-Titel erhalten 1 % unteren Innenabstand.]]></item>
+      <item><![CDATA[EN: Added H6 to the heading selection; all timeline titles now have 1% bottom padding.]]></item>
+    </addition>
+    <change>
+      <item><![CDATA[DE: Konturen der Datums-Pfeilspitze korrigiert und abgestimmte Abstände zur Mittelachse beibehalten.]]></item>
+      <item><![CDATA[EN: Refined date pointer outlines and retained the agreed spacing relative to the centre axis.]]></item>
+      <item><![CDATA[DE: Überschriftenauswahl H1 bis H6 von einer festen Schriftgröße entkoppelt, damit die Template-/Astroid-Typografie greifen kann.]]></item>
+      <item><![CDATA[EN: Removed the fixed title font size so the selected H1–H6 heading level can use template/Astroid typography.]]></item>
+      <item><![CDATA[DE: Deutsche Modulbeschreibung überarbeitet.]]></item>
+      <item><![CDATA[EN: Updated the German module description.]]></item>
+    </change>
+  </changelog>
   <changelog date="2026-11-26">
     <element>mod_uk_timeline</element>
     <type>module</type>
